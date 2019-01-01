@@ -10,7 +10,9 @@ Folders :
 Check your TestRunner folder
 
 mvn clean verify -Dcucumber.options=" --plugin {plugin} --tags {tag}"
-i.e mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_1"
+
+i.e 
+mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_1"
 
 # SerenityBDD HTML Report Path
 {your_project_path}/target/site/serenity/index.html

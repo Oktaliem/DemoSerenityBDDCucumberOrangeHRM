@@ -18,5 +18,5 @@ mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_1"
 # SerenityBDD HTML Report Path
 {your_project_path}/target/site/serenity/index.html
 
-# Youtube Tutorial
+# Youtube in Demo
  https://youtu.be/A3jRCfnxY5s

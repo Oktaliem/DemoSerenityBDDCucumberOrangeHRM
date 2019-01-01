@@ -1,0 +1,405 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User is in the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11378658414,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is in the Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Login to the Application Successfully",
+        "description": "",
+        "id": "login-to-orange-hrm;login-to-the-application-successfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4000089446,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User provides the Username admin and Password admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 27
+                },
+                {
+                  "val": "admin",
+                  "offset": 46
+                }
+              ],
+              "location": "LoginStepDefinition.user_provides_Username_admin_and_password(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 679153451,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User is able to login",
+            "match": {
+              "location": "LoginStepDefinition.User_is_able_to_login()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@priority_1"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User is in the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 5165783346,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is in the Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 16,
+        "name": "Login to the Application with Invalid UserName",
+        "description": "",
+        "id": "login-to-orange-hrm;login-to-the-application-with-invalid-username",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1378241514,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User provides invalid the Username tukiyem and Password admin",
+            "match": {
+              "arguments": [
+                {
+                  "val": "tukiyem",
+                  "offset": 35
+                },
+                {
+                  "val": "admin",
+                  "offset": 56
+                }
+              ],
+              "location": "LoginStepDefinition.userProvidesInvalidTheUserNameAndPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 601701014,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User is unable to login with Invalid UserName",
+            "match": {
+              "location": "LoginStepDefinition.userIsUnableToLoginWithInvalidUserName()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@priority_2"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User is in the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4569967769,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is in the Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 21,
+        "name": "Login to the Application with Invalid Password",
+        "description": "",
+        "id": "login-to-orange-hrm;login-to-the-application-with-invalid-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2060543050,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User provides invalid the Username admin and Password tukiyem",
+            "match": {
+              "arguments": [
+                {
+                  "val": "admin",
+                  "offset": 35
+                },
+                {
+                  "val": "tukiyem",
+                  "offset": 54
+                }
+              ],
+              "location": "LoginStepDefinition.userProvidesInvalidTheUserNameAndPassword(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 519633375,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User is unable to login with Invalid Password",
+            "match": {
+              "location": "LoginStepDefinition.userIsUnableToLoginWithInvalidPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@priority_2"
+          }
+        ]
+      },
+      {
+        "line": 7,
+        "name": "User is in the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 4794976122,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User is in the Login Page",
+            "match": {
+              "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 26,
+        "name": "Login to the Application with Empty UserName And Empty Password",
+        "description": "",
+        "id": "login-to-orange-hrm;login-to-the-application-with-empty-username-and-empty-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1380667348,
+              "status": "passed"
+            },
+            "line": 27,
+            "name": "User provides empty the Username and empty Password",
+            "match": {
+              "location": "LoginStepDefinition.userProvidesEmptyTheUsernameAndEmptyPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 375277462,
+              "status": "passed"
+            },
+            "line": 28,
+            "name": "User is unable to login with empty username and password",
+            "match": {
+              "location": "LoginStepDefinition.userIsUnableToLoginWithEmptyUsernameAndPassword()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@priority_3"
+          }
+        ]
+      }
+    ],
+    "name": "Login to Orange HRM",
+    "description": "  In Order To Access OHRM Portal\n  User has to login to Portal",
+    "id": "login-to-orange-hrm",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/Login.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 7,
+        "name": "User is in the Login Page",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 8,
+            "name": "User has login to Portal",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 9,
+            "name": "User is in the Admin Portal - User Management - System Users",
+            "match": {},
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Able to Add User Admin Role with Status Enable Succesfully",
+        "description": "",
+        "id": "user-management;able-to-add-user-admin-role-with-status-enable-succesfully",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 13,
+            "name": "User specifies User credential information",
+            "match": {},
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 14,
+            "name": "User click on Add",
+            "match": {},
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 15,
+            "name": "New User has been Add",
+            "match": {},
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 16,
+            "name": "User able to See New User in the Table List",
+            "match": {},
+            "keyword": "And "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@priority_1"
+          }
+        ]
+      }
+    ],
+    "name": "User Management",
+    "description": "In Order To Manage OHRM Portal\nUser Admin should be able to add, view and delete users credential",
+    "id": "user-management",
+    "keyword": "Feature",
+    "uri": "src/test/resources/features/User Management.feature",
+    "tags": [
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

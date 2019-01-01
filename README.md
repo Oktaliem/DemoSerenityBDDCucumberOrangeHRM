@@ -6,7 +6,7 @@ Folders :
 3. SerenitySteps : To Create steps in Serenity Reporting
 4. TestRunner : To Run Your Features File, glue between your feature and cucumbersteps
 
-# Run the Test
+# Run the Test Via Command Line
 Check your TestRunner folder
 
 mvn clean verify -Dcucumber.options=" --plugin {plugin} --tags {tag}"

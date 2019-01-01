@@ -4,7 +4,7 @@ Serenity BDD + Cucumber + Java + Page Object Model
 Folders :
 1. Features : Test suit in gerkhin language. Each feature consists of test cases.
 2. CucumberSteps : Step Definition in cucumber, ie. Given When And Then 
-3. SerenitySteps : To Create steps in Serenity Reporting with annotation @step
+3. SerenitySteps : To Create steps for Serenity BDD report with annotation @step
 4. TestRunner : To Run Your Features File, glue between your feature and cucumbersteps
 
 # Run the Test Via Command Line

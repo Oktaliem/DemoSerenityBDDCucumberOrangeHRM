@@ -12,7 +12,7 @@ Check your TestRunner folder
 
 mvn clean verify -Dcucumber.options=" --plugin {plugin} --tags {tag}"
 
-i.e 
+i.e. 
 - mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_1"
 - mvn clean verify -Dcucumber.options="src/test/resources/features/User_Management.feature"
 

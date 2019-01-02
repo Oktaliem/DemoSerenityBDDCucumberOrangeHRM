@@ -1,5 +1,5 @@
 # DemoSerenityBDDCucumberOrangeHRM
-Serenity BDD + Cucumber + Java + Selenium + Page Object Model
+Serenity BDD + Cucumber + Java + Selenium + Page Object Model/Page Factory + orangeHRM-4.0
 
 Folders :
 1. Features : Test suit in gerkhin language. Each feature consists of test cases.

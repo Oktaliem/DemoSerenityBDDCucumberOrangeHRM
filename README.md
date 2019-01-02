@@ -19,7 +19,7 @@ i.e.
 # SerenityBDD HTML Report Path
 {your_project_path}/target/site/serenity/index.html
 
-# Youtube in Demo
+# Demo in Youtube
  https://youtu.be/A3jRCfnxY5s
  
  

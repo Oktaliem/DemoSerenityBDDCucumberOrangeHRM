@@ -24,7 +24,7 @@ i.e.
  https://youtu.be/A3jRCfnxY5s
  
  
-# Download OrangeHRM here 
+# Download OrangeHRM
 https://github.com/orangehrm/orangehrm
 
 # Serenity BDD 

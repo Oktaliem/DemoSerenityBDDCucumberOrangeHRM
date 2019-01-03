@@ -24,8 +24,8 @@ i.e.
  https://youtu.be/A3jRCfnxY5s
  
  
-# Download OrangeHRM here :
+# Download OrangeHRM here 
 https://github.com/orangehrm/orangehrm
 
-# Serenity BDD :
+# Serenity BDD 
 http://thucydides.info/docs/serenity-staging/

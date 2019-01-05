@@ -7,7 +7,7 @@ Folders :
 3. SerenitySteps : To Create steps for Serenity BDD report with annotation @step
 4. TestRunner : To Run Your Features File, glue between your feature and cucumbersteps
 
-# Run the Test Via Command Line
+## Run the Test Via Command Line
 Check your TestRunner folder for cucumber options
 
 i.e. 
@@ -20,7 +20,7 @@ i.e.
 - mvn clean verify -Dwebdriver.driver=firefox
 ```
 
-# SerenityBDD HTML Report Path
+## SerenityBDD HTML Report Path
 ```
 {your_project_path}/target/site/serenity/index.html
 ```
@@ -43,17 +43,17 @@ Sample :
 ![cucumber html report sample](https://user-images.githubusercontent.com/26521948/50727509-b9963780-1156-11e9-9b42-ae3d2b45e909.png)
 
 
-# Demo in Youtube
+## Demo in Youtube
 ```
  https://youtu.be/A3jRCfnxY5s
 ```
 
-# Download OrangeHRM
+## Download OrangeHRM
 ```
 https://github.com/orangehrm/orangehrm
 ```
 
-# Serenity BDD
+## Serenity BDD
 ```
 http://thucydides.info/docs/serenity-staging/
 ```

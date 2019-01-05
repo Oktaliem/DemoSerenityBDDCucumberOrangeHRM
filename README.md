@@ -21,6 +21,12 @@ i.e.
 # SerenityBDD HTML Report Path
 {your_project_path}/target/site/serenity/index.html
 
+Sample 1 :
+![serenity bdd cucumber html report sample 1](https://user-images.githubusercontent.com/26521948/50727585-f3b40900-1157-11e9-8c11-50e61a20855c.png)
+
+Sample 2 :
+![serenity bdd cucumber html report sample 2](https://user-images.githubusercontent.com/26521948/50727587-f6aef980-1157-11e9-980c-b6a29c640886.png)
+
 ## Cucumber HTML Report Path
 {your_project_path}target/Report.HTML/index.html
 

@@ -7,10 +7,9 @@ import org.junit.runner.RunWith;
 @RunWith(CucumberWithSerenity.class)
 @CucumberOptions(
         plugin = {"pretty", "html:target/Report.HTML", "json:target/Report.Json"},
-        features = "src/test/resources/features",
+        features = "src/test/resources/features/login.feature",
         glue ="com/ohrm/automation/cucumberSteps"
 )
 public class LoginTestRunner {
     // mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_1"
-
 }

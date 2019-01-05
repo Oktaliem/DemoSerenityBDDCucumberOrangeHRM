@@ -49,8 +49,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 1],
-                ['Pending', 1],
+                ['Passing', 3],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -82,8 +82,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 requirements tested successfully'},
-                {label: '1 requirements pending'},
+                {label: '3 requirements tested successfully'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -180,7 +180,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-01-2019 11:53</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-01-2019 10:53</span>
     <br style="clear:left"/>
 </div>
 
@@ -212,20 +212,20 @@
                                     <tr>
                                         <td class="summary-leading-column"><a
                                                 href="#requirements-tabs">Features</a></td>
-                                        <td>2</td>
-                                        <td>1</td>
+                                        <td>3</td>
+                                        <td>3</td>
                                         <td>0</td>
-                                        <td>1</td>
+                                        <td>0</td>
                                         <td>0</td>
                                     </tr>
 
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>5</td>
-                                    <td>4</td>
+                                    <td>6</td>
+                                    <td>6</td>
                                     <td>0</td>
-                                    <td>1</td>
+                                    <td>0</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -253,10 +253,10 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>5</td>
-            <td>4 (80%)</td>
+            <td>6</td>
+            <td>6 (100%)</td>
             <td>0 (0%)</td>
-            <td>1 (20%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -269,15 +269,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>5</td>
-            <td>4 (80%)</td>
+            <td>6</td>
+            <td>6 (100%)</td>
             <td>0 (0%)</td>
-            <td>1 (20%)</td>
+            <td>0 (0%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">46 seconds</td>
+                <td colspan="5">52 seconds</td>
         </tr>
         </body>
     </table>
@@ -288,7 +288,7 @@
                 <div id="requirements-tabs">
                         <ul>
                                 <li><a href="#tabs-1">
-                                    Features (2)
+                                    Features (3)
                                 </a></li>
                         </ul>
                         <div id="tabs-1" class="capabilities-table">
@@ -434,28 +434,27 @@ User has to login to Portal</div>
                 </tr>
 
 
-                <tr class="test-PENDING requirementRow">
+                <tr class="test-SUCCESS requirementRow">
                     <td class="requirementRowCell">
-                        <span class="status_icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                        <span style="display:none">2</span>
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
                     </td>
                     <td class="cardNumber requirementRowCell"></td>
 
-                    <td class="PENDING-text requirementRowCell">
+                    <td class="SUCCESS-text requirementRowCell">
                         <a href="javaScript:void(0)" class="read-more-link">
                             <img src="images/plus.png" height="16"/></a>
                         <span class="requirementName"><a
-                                href="c8009bf75c9510b3a80218f56094feac5a8cc2fa2e435649f4fbdf79c5861940.html">User Management</a></span>
+                                href="db50e4129ccbff608ed8dae3a5f2298809ef4b171f367d93c37e219a7528b64e.html">Logout from Orange HRM</a></span>
 
-                        <div class="requirementNarrative read-more-text">In Order To Manage OHRM Portal
-User Admin should be able to add, view and delete users credential</div>
+                        <div class="requirementNarrative read-more-text">User has to logout from Portal if no longer used</div>
                     </td>
 
 
                     <td class="greentext highlighted-value requirementRowCell">1</td>
 <!--
-                    <td class="greentext requirementRowCell">0</td>
-                    <td class="bluetext requirementRowCell">1</td>
+                    <td class="greentext requirementRowCell">1</td>
+                    <td class="bluetext requirementRowCell">0</td>
                     <td class="redtext requirementRowCell">0</td>
                     <td class="lightorangetext requirementRowCell">0</td>
                     <td class="violettext requirementRowCell">0</td>
@@ -474,71 +473,192 @@ User Admin should be able to add, view and delete users credential</div>
 <table>
     <tr>
         <td width="40px">
-            <div class="small">0%</div>
+            <div class="small">100%</div>
         </td>
         <td width="125px">
             <div class="percentagebar"
                  title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                  style="width: 125px;">
                 <div class="pendingbar"
                      title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)"
                      style="width: 125px;">
                     <div class="ignoredbar"
-                         style="width: 0px;"
+                         style="width: 125px;"
                          title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                         <div class="compromisedbar"
-                             style="width: 0px;"
+                             style="width: 125px;"
                              title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                             <div class="errorbar"
-                                 style="width: 0px;"
+                                 style="width: 125px;"
                                  title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                 <div class="failingbar"
-                                     style="width: 0px;"
+                                     style="width: 125px;"
                                      title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     <div class="passingbar"
-                                         style="width: 0px;"
+                                         style="width: 125px;"
                                          title="  - Total tests: 1
-  - Passing tests: 0 (0%)
+  - Passing tests: 1 (100%)
   - Failing tests: 0 (0%)
   - Tests with errors: 0 (0%)
   - Compromised tests 0 (0%)
-  - Pending tests: 1 (100%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </td>
+    </tr>
+</table>
+                    </td>
+
+                </tr>
+
+
+                <tr class="test-SUCCESS requirementRow">
+                    <td class="requirementRowCell">
+                        <span class="status_icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        <span style="display:none">1</span>
+                    </td>
+                    <td class="cardNumber requirementRowCell"></td>
+
+                    <td class="SUCCESS-text requirementRowCell">
+                        <a href="javaScript:void(0)" class="read-more-link">
+                            <img src="images/plus.png" height="16"/></a>
+                        <span class="requirementName"><a
+                                href="c8009bf75c9510b3a80218f56094feac5a8cc2fa2e435649f4fbdf79c5861940.html">User Management</a></span>
+
+                        <div class="requirementNarrative read-more-text">In Order To Manage OHRM Portal
+User Admin should be able to add, view and delete users credential</div>
+                    </td>
+
+
+                    <td class="greentext highlighted-value requirementRowCell">1</td>
+<!--
+                    <td class="greentext requirementRowCell">1</td>
+                    <td class="bluetext requirementRowCell">0</td>
+                    <td class="redtext requirementRowCell">0</td>
+                    <td class="lightorangetext requirementRowCell">0</td>
+                    <td class="violettext requirementRowCell">0</td>
+-->
+                        <td class="greentext highlighted-value requirementRowCell">0</td>
+<!--
+                        <td class="greentext requirementRowCell">0</td>
+                        <td class="bluetext requirementRowCell">0</td>
+                        <td class="redtext requirementRowCell">0</td>
+                        <td class="lightorangetext requirementRowCell">0</td>
+                        -->
+
+                    <td width="125px" class="lightgreentext requirementRowCell">
+
+
+<table>
+    <tr>
+        <td width="40px">
+            <div class="small">100%</div>
+        </td>
+        <td width="125px">
+            <div class="percentagebar"
+                 title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
+                 style="width: 125px;">
+                <div class="pendingbar"
+                     title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)"
+                     style="width: 125px;">
+                    <div class="ignoredbar"
+                         style="width: 125px;"
+                         title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                        <div class="compromisedbar"
+                             style="width: 125px;"
+                             title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                            <div class="errorbar"
+                                 style="width: 125px;"
+                                 title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                <div class="failingbar"
+                                     style="width: 125px;"
+                                     title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
+  - Ignored or skipped tests: 0 (0%)">
+                                    <div class="passingbar"
+                                         style="width: 125px;"
+                                         title="  - Total tests: 1
+  - Passing tests: 1 (100%)
+  - Failing tests: 0 (0%)
+  - Tests with errors: 0 (0%)
+  - Compromised tests 0 (0%)
+  - Pending tests: 0 (0%)
   - Ignored or skipped tests: 0 (0%)">
                                     </div>
                                 </div>
@@ -586,6 +706,29 @@ User Admin should be able to add, view and delete users credential</div>
                                 <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
+                                        <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487.html" class="ellipsis"
+                                           title="Able to Add User Admin Role with Status Enable Successfully ">
+                                            Able to Add User Admin Role with Status Enable Successfully
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="SUCCESS-text">9</td>
+
+
+                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:53">10:53:53</td>
+
+                                <td class="SUCCESS-text">9.05</td>
+                            </tr>
+
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                                    
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
+                                    <div class="ellipsis">
+
                                         <a href="1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.html" class="ellipsis"
                                            title="Login to the Application Successfully ">
                                             Login to the Application Successfully
@@ -597,9 +740,9 @@ User Admin should be able to add, view and delete users credential</div>
                                 <td class="SUCCESS-text">6</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-01-01 11:53:51">11:53:51</td>
+                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:04">10:53:04</td>
 
-                                <td class="SUCCESS-text">18.85</td>
+                                <td class="SUCCESS-text">10.18</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -620,9 +763,9 @@ User Admin should be able to add, view and delete users credential</div>
                                 <td class="SUCCESS-text">6</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-01-01 11:54:10">11:54:10</td>
+                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:14">10:53:14</td>
 
-                                <td class="SUCCESS-text">9.2</td>
+                                <td class="SUCCESS-text">7.25</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -643,9 +786,9 @@ User Admin should be able to add, view and delete users credential</div>
                                 <td class="SUCCESS-text">6</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-01-01 11:54:19">11:54:19</td>
+                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:22">10:53:22</td>
 
-                                <td class="SUCCESS-text">9.12</td>
+                                <td class="SUCCESS-text">7</td>
                             </tr>
 
                             <tr class="test-SUCCESS">
@@ -666,32 +809,32 @@ User Admin should be able to add, view and delete users credential</div>
                                 <td class="SUCCESS-text">8</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-01-01 11:54:28">11:54:28</td>
+                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:29">10:53:29</td>
 
-                                <td class="SUCCESS-text">8.44</td>
+                                <td class="SUCCESS-text">8.29</td>
                             </tr>
 
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                            <tr class="test-SUCCESS">
+                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                                     
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
+                                    <span style="display:none">SUCCESS</span></td>
+                                <td class="SUCCESS-text">
                                     <div class="ellipsis">
 
-                                        <a href="f73223f6468c52f7796e751f32b045789623dec7cab747c99b8b72847ff8f4cc.html" class="ellipsis"
-                                           title="Able to Add User Admin Role with Status Enable Succesfully ">
-                                            Able to Add User Admin Role with Status Enable Succesfully
+                                        <a href="9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.html" class="ellipsis"
+                                           title="Logout from the Portal successfully ">
+                                            Logout from the Portal successfully
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="PENDING-text">6</td>
+                                <td class="SUCCESS-text">9</td>
 
 
-                                <td class="PENDING-text" data-sort="2019-01-01 11:54:36">11:54:36</td>
+                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:42">10:53:42</td>
 
-                                <td class="PENDING-text">0.02</td>
+                                <td class="SUCCESS-text">10.63</td>
                             </tr>
                         </tbody>
                     </table>

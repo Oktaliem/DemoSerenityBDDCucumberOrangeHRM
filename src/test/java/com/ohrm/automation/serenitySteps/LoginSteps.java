@@ -1,16 +1,18 @@
 package com.ohrm.automation.serenitySteps;
 
 
-import com.ohrm.automation.pages.DashboardPage;
-import com.ohrm.automation.pages.LoginPage;
+import com.ohrm.automation.pages.dashboard.DashboardPage;
+import com.ohrm.automation.pages.login.LoginPage;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebDriver;
 
+import static URLs.OHRM_URL.dashBoardPage;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class LoginSteps{
+    //@Managed(driver = "chrome")
     @Managed
     WebDriver driver = null;
 
@@ -39,7 +41,7 @@ public class LoginSteps{
 
     @Step
     public void isDirectingToDashBoardPage() throws InterruptedException {
-        assertThat(dashboard.getDashboardPageURL(), containsString("http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/dashboard"));
+        assertThat(dashboard.getDashboardPageURL(), containsString(dashBoardPage));
     }
 
     @Step

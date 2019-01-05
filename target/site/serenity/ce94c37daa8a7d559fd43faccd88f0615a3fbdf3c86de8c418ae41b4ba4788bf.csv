@@ -1,2 +1,4 @@
 "Story","Title","Result","Date","Stability","Duration (s)"
-"Login to Orange HRM","Login to the Application Successfully","SUCCESS","2019-01-01T11:53:51.353+08:00[Asia/Singapore]","0.0","18.85"
+"User Management","Able to Add User Admin Role with Status Enable Successfully","SUCCESS","2019-01-05T10:53:53.709+08:00[Asia/Singapore]","0.0","9.05"
+"Login to Orange HRM","Login to the Application Successfully","SUCCESS","2019-01-05T10:53:04.793+08:00[Asia/Singapore]","0.0","10.18"
+"Logout from Orange HRM","Logout from the Portal successfully","SUCCESS","2019-01-05T10:53:42.746+08:00[Asia/Singapore]","0.0","10.63"

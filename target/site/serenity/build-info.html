@@ -36,9 +36,9 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var test_results_plot = $.jqplot('test_results_pie_chart', [
             [
-                ['Passing', 0.8],
+                ['Passing', 1],
                 
-                ['Pending', 0.2],
+                ['Pending', 0],
                 
                 ['Ignored', 0],
                 
@@ -73,19 +73,19 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 5 tests passed' },
-                {label: '1 / 5 tests pending'},
-                {label: '0 / 5 tests not executed'},
-                {label: '0 / 5 tests failed'},
-                {label: '0 / 5 errors'}
+                {label: '6 / 6 tests passed' },
+                {label: '0 / 6 tests pending'},
+                {label: '0 / 6 tests not executed'},
+                {label: '0 / 6 tests failed'},
+                {label: '0 / 6 errors'}
             ]
         });
 
         var weighted_test_results_plot = $.jqplot('weighted_test_results_pie_chart', [
             [
-                ['Passing', 0.8125],
+                ['Passing', 1],
                 
-                ['Pending', 0.1875],
+                ['Pending', 0],
                 
                 ['Ignored', 0],
                 
@@ -121,11 +121,11 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '4 / 5 tests passed (0.8125% of all test steps)' },
-                {label: '1 / 5 tests pending'},
-                {label: '0 / 5 tests not executed'},
-                {label: '0 / 5 tests failed (0% of all test steps)'},
-                {label: '0 / 5 errors (0% of all test steps)'}
+                {label: '6 / 6 tests passed (1% of all test steps)' },
+                {label: '0 / 6 tests pending'},
+                {label: '0 / 6 tests not executed'},
+                {label: '0 / 6 tests failed (0% of all test steps)'},
+                {label: '0 / 6 errors (0% of all test steps)'}
             ]
         });
 
@@ -189,7 +189,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 01-01-2019 11:54</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-01-2019 10:54</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -210,10 +210,10 @@
                     </tr>
                 </table>
 
-                    <h2>Driver capabilities: firefox</h2>
+                    <h2>Driver capabilities: chrome</h2>
                     <table class="table table-striped build-info">
                             <tr>
-                                <td style="width: 30%">browserName</td><td>firefox</td>
+                                <td style="width: 30%">browserName</td><td>chrome</td>
                             </tr>
                             <tr>
                                 <td style="width: 30%">version</td><td></td>

@@ -23,6 +23,7 @@ i.e.
 
 ## Cucumber HTML Report Path
 {your_project_path}target/Report.HTML/index.html
+
 ![cucumber html report sample](https://user-images.githubusercontent.com/26521948/50727509-b9963780-1156-11e9-9b42-ae3d2b45e909.png)
 
 

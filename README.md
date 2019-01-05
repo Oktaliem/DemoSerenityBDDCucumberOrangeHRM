@@ -11,14 +11,14 @@ Folders :
 Check your TestRunner folder for cucumber options
 
 i.e. 
-'''
+```
 - mvn clean verify
 - mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_3"
 - mvn clean verify -Dcucumber.options="src/test/resources/features/"
 - mvn clean verify -Dcucumber.options="src/test/resources/features/User_Management.feature"
 - mvn clean verify -Dcucumber.options="src/test/resources/features" -Dwebdriver.driver=chrome
 - mvn clean verify -Dwebdriver.driver=firefox
-'''
+```
 
 # SerenityBDD HTML Report Path
 {your_project_path}/target/site/serenity/index.html

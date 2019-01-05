@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.automation.TestRunner.LoginTestRunner" time="39.02" tests="4" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.automation.TestRunner.LoginTestRunner" time="45.072" tests="4" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -64,8 +64,8 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Login to the Application Successfully" classname="Login to Orange HRM" time="9.97"/>
-  <testcase name="Login to the Application with Invalid UserName" classname="Login to Orange HRM" time="6.96"/>
-  <testcase name="Login to the Application with Invalid Password" classname="Login to Orange HRM" time="6.887"/>
-  <testcase name="Login to the Application with Empty UserName And Empty Password" classname="Login to Orange HRM" time="8.209"/>
+  <testcase name="Login to the Application Successfully" classname="Login to Orange HRM" time="11.22"/>
+  <testcase name="Login to the Application with Invalid UserName" classname="Login to Orange HRM" time="8.169"/>
+  <testcase name="Login to the Application with Invalid Password" classname="Login to Orange HRM" time="8.413"/>
+  <testcase name="Login to the Application with Empty UserName And Empty Password" classname="Login to Orange HRM" time="9.24"/>
 </testsuite>

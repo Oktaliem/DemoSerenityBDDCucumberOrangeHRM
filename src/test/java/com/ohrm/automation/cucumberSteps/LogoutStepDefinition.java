@@ -22,7 +22,7 @@ public class LogoutStepDefinition {
 
     @And("^User is log out from portal$")
     public void userIsLogOutFromPortal() throws Throwable {
-       user.logoutfromPortal();
+       user.logoutFromPortal();
     }
 
     @Then("^User is in the Login Page after Logout$")

@@ -2,6 +2,7 @@ package com.ohrm.automation.pages;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Managed;
+import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -10,25 +11,42 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 
-
 public class HomePage extends PageObject {
+
     @Managed
     WebDriver driver;
 
     @FindBy(xpath = "//*[@id=\"menu_admin_viewAdminModule\"]/b[1]")
-    WebElement adminTab;
+    //@FindBy(xpath = "//b[contains(text(),'Admin')]")
+    public WebElement adminTab;
 
-    @FindBy(xpath = "//*[@id=\"menu_admin_viewAdminModule\"]/b[1]")
-    WebElement adminTabs;
+    @FindBy(id = "menu_admin_UserManagement")
+    public WebElement userManagementTab;
+
+    @FindBy(id = "menu_admin_viewSystemUsers")
+    public WebElement userTab;
 
     @FindBy(xpath = "//*[@id=\"welcome-menu\"]/ul[1]/li[3]/a[1]")
-    WebElement logoutOption;
+    public WebElement logoutOption;
 
     @FindBy(id = "welcome")
-    WebElement welcomeButton;
+    public WebElement welcomeButton;
 
     public HomePage(WebDriver driver) {
         this.driver = driver;
+    }
+
+    public void goToAdminModule() {
+        waitUntilElementIsPresentByXpath("//*[@id=\"menu_admin_viewAdminModule\"]/b[1]");
+        adminTab.click();
+    }
+
+    public void clickOnUserManagementList() {
+        userManagementTab.click();
+    }
+
+    public void clickOnUserTab() {
+        userTab.click();
     }
 
     public void clickOnWelcomeButton() {
@@ -36,9 +54,13 @@ public class HomePage extends PageObject {
     }
 
     public void clickOnLogoutOption() {
-        WebDriverWait wait = new WebDriverWait(driver, 10);
-        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//*[@id=\"welcome-menu\"]/ul[1]/li[3]/a[1]")));
+        waitUntilElementIsPresentByXpath("//*[@id=\"welcome-menu\"]/ul[1]/li[3]/a[1]");
         logoutOption.click();
+    }
+
+    public void waitUntilElementIsPresentByXpath(String element) {
+        WebDriverWait wait = new WebDriverWait(driver, 10);
+        wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(element)));
     }
 
 

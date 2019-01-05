@@ -8,7 +8,7 @@ public class LogoutSteps {
     HomePage homePage;
 
     @Step
-    public void logoutfromPortal() {
+    public void logoutFromPortal() {
         homePage.clickOnWelcomeButton();
         homePage.clickOnLogoutOption();
     }

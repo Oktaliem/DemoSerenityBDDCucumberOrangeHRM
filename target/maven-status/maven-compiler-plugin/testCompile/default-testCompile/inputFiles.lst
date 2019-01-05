@@ -46,5 +46,6 @@ C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\co
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Config_EmailSubScribPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Qlification_EducationPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\cucumberSteps\UserManagementStepDefinition.java
+C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\serenitySteps\HomePageSteps.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\pim\Config_CstmFieldsPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\cucumberSteps\LoginStepDefinition.java

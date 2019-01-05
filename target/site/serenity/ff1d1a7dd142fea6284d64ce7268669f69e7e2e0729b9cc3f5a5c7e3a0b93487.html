@@ -78,7 +78,7 @@
             <a href="576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-01-2019 10:53</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-01-2019 01:06</span>
     <br style="clear:left"/>
 </div>
     <div class="clr"></div>
@@ -110,13 +110,6 @@ User Admin should be able to add, view and delete users credential
                             <p class="tag">
                                 <span class="badge tag-badge" style="background:default;">
                                     <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
-                                                                      href="8be7259749ec8c4eb32a6df571689abeb357da967a2ff0473035c9da461aa15a.html">Priority 1
-                                    (tag)</a>
-                                </span>
-                            </p>
-                            <p class="tag">
-                                <span class="badge tag-badge" style="background:default;">
-                                    <i class="fa fa-tag"></i>&nbsp;<a class="tagLink" style="background:default;"
                                                                       href="1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.html">Regression
                                     (tag)</a>
                                 </span>
@@ -129,9 +122,9 @@ User Admin should be able to add, view and delete users credential
                 <table class="outcome-header">
                     <tr>
                         <td colspan="2" class="test-title-bar">
-                            <span class="outcome-icon"><i class='fa fa-check-square-o success-icon fa-2x' title='SUCCESS'></i></span>
+                            <span class="outcome-icon"><i class='fa fa-square-o pending-icon fa-2x' title='PENDING'></i></span>
                             <span class="test-case-title">
-                                    <span class="success-color">
+                                    <span class="pending-color">
                                     Able to Add User Admin Role with Status Enable Successfully
                                         <span class="related-issue-title"></span>
                                 </span>
@@ -145,9 +138,69 @@ User Admin should be able to add, view and delete users credential
 
     <div class="clr"></div>
 
+    <div class="story-title">
+        <h3 class="story-header">Scenario Outline</h3>
+
+        <div class="scenario">When User input &lt;user_role&gt; and &lt;employee_name&gt; and &lt;user_name&gt; and &lt;status&gt; and &lt;password&gt; and &lt;confirm_password&gt;<br>And User click on Save Button<br>Then User should see the user &lt;user_name&gt; under the System Users Table</div>
+
+    </div>
 
     <div id="beforetable"></div>
 
+
+        <h3 class="story-header">Examples:&nbsp;</h3>
+
+
+        <p class="example-tag">
+        </p>
+
+        <div class="example-table">
+            <table>
+                <thead>
+                <tr>
+                    <th>#</th>
+                        <th>User Role</th>
+                        <th>Employee Name</th>
+                        <th>User Name</th>
+                        <th>Status</th>
+                        <th>Password</th>
+                        <th>Confirm Password</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="test-PENDING"><a href="#0">1</a></td>
+                            <td class="test-PENDING"><a href="#0">Admin</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#0">John Lennon</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#0">john_lennon</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#0">Enabled</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#0">admin</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#0">admin</a>
+                            </td>
+                    </tr>
+                    <tr>
+                        <td class="test-PENDING"><a href="#1">2</a></td>
+                            <td class="test-PENDING"><a href="#1">ESS</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#1">Frank Sinarta</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#1">frank_sinarta</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#1">Disabled</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#1">admin</a>
+                            </td>
+                            <td class="test-PENDING"><a href="#1">admin</a>
+                            </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
 
     <div id="tablecontents">
         <div>
@@ -166,12 +219,12 @@ User Admin should be able to add, view and delete users credential
                 <tr class="step-table-separator">
                     <td colspan="5"></td>
                 </tr>
-                <tr class="test-SUCCESS">
+                <tr class="test-PENDING">
                     <td width="60" class="step-icon">
                         <a name="0"/>
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection0 success-icon"
+                                <i class="fa fa-plus-square-o imgstepSection0 pending-icon"
                                    style="margin-left: 20px; float:left;  padding-right:5px"></i>
                             </a>
                     </td>
@@ -180,23 +233,16 @@ User Admin should be able to add, view and delete users credential
                             <a href="javaScript:void(0)" onClick="toggleDiv('stepSection0')"
                                style="display:block;">
                             <span class="top-level-step">
-                                Given User is in the Login Page
+                                Able to Add User Admin Role with Status Enable Successfully #1: {user_role=Admin, employee_name=John Lennon, user_name=john_lennon, status=Enabled, password=admin, confirm_password=admin}
                             </span>
                             </a>
 
                         </div>
                     </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=0">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="1b05dbe4e0ccb1737da7f4b4b929a910b8e0e64cfa29348893c16e9c1eec0431.png"
-                                         href="1b05dbe4e0ccb1737da7f4b4b929a910b8e0e64cfa29348893c16e9c1eec0431.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
+                        <td width="100" class="PENDING-text">
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">3.13s</span></td>
+                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">13.03s</span></td>
                 </tr>
                     <tr>
                     <td colspan="5">
@@ -206,6 +252,32 @@ User Admin should be able to add, view and delete users credential
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given User is in the Login Page
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=0">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         href="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">4.38s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -219,59 +291,46 @@ User Admin should be able to add, view and delete users credential
                         <td width="100" class="SUCCESS-text">
                                 <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=1">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="1b05dbe4e0ccb1737da7f4b4b929a910b8e0e64cfa29348893c16e9c1eec0431.png"
-                                         href="1b05dbe4e0ccb1737da7f4b4b929a910b8e0e64cfa29348893c16e9c1eec0431.png"
+                                    <img src="19348b72020c4d17a57f2c28c6d2c11e50f515fdd0ea13f05a6a781f929e6268.png"
+                                         href="19348b72020c4d17a57f2c28c6d2c11e50f515fdd0ea13f05a6a781f929e6268.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">2.81s</span></td>
+                    <td width="100"><span class="nested-group-step">1.25s</span></td>
                 </tr>
-
-                    </table>
-                    </td>
-                    <tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="1"/>
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block">
-                                <i class="fa fa-plus-square-o imgstepSection1 success-icon"
-                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
-                            </a>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
-                               style="display:block;">
-                            <span class="top-level-step">
-                                Given User has login to Portal with valid credential<br><table class='embedded'><thead><th>username</th><th>password</th></thead><tbody><tr><td>admin</td><td>admin</td></tr></tbody></table>
-                            </span>
-                            </a>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=2">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         href="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">2.89s</span></td>
-                </tr>
-                    <tr>
-                    <td colspan="5">
-                    <table id="stepSection1" style="display:none; width:100%">
 
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
                         
                             <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given User has login to Portal with valid credential<br><table class='embedded'><thead><th>username</th><th>password</th></thead><tbody><tr><td>admin</td><td>admin</td></tr></tbody></table>
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=3">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         href="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.79s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
                                   class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
@@ -283,109 +342,28 @@ User Admin should be able to add, view and delete users credential
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=3">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=5">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="1039267bda7038a3032002482e060d11bbaaddf96cf4bd5cb90e026996096cae.png"
-                                         href="1039267bda7038a3032002482e060d11bbaaddf96cf4bd5cb90e026996096cae.png"
+                                    <img src="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         href="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
                     <td width="100"><span class="nested-group-step">SUCCESS</span></td>
-                    <td width="100"><span class="nested-group-step">2.26s</span></td>
+                    <td width="100"><span class="nested-group-step">2.1s</span></td>
                 </tr>
 
-                    </table>
-                    </td>
-                    <tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
-                        <a name="2"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">
+                            <span class="nested-step">
                                 Given User is in the Admin Portal - User Management - System Users
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=4">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         href="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.58s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="3"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">
-                                When User specifies User credential information
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=5">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         href="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.55s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="4"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">
-                                And User click on Add
-                            </span>
-
-                        </div>
-                    </td>
-                        <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=6">
-                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         href="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         class="screenshot"
-                                         width="48" height="48"/>
-                                </a>
-                        </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.56s</span></td>
-                </tr>
-                <tr class="test-SUCCESS">
-                    <td width="60" class="step-icon">
-                        <a name="5"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
-                    </td>
-                    <td>
-                        <div class="step-description">
-                            <span class="top-level-step">
-                                Then New User has been Added
                             </span>
 
                         </div>
@@ -393,45 +371,438 @@ User Admin should be able to add, view and delete users credential
                         <td width="100" class="SUCCESS-text">
                                 <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=7">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         href="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
+                                    <img src="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
+                                         href="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.56s</span></td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">3.04s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
                     <td width="60" class="step-icon">
-                        <a name="6"/>
-                            <span style="margin-left: 20px; margin-right: 5px;"
-                                  class="top-level-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
                     </td>
                     <td>
                         <div class="step-description">
-                            <span class="top-level-step">
-                                And User is able to See New User in the Table List
+                            <span class="nested-group-step">
+                                Go to system users form
                             </span>
 
                         </div>
                     </td>
                         <td width="100" class="SUCCESS-text">
-                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=8">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=9">
                                     <!-- Added invalid href-attribute to img for imgpreviewer -->
-                                    <img src="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
-                                         href="84acc7760dae859a492177cc384703b33b0a0ed0e135c4adbb0dc9904be3a13f.png"
+                                    <img src="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
+                                         href="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
                                          class="screenshot"
                                          width="48" height="48"/>
                                 </a>
                         </td>
-                    <td width="100"><span class="top-level-step">SUCCESS</span></td>
-                    <td width="100"><span class="top-level-step">0.54s</span></td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">2.37s</span></td>
+                </tr>
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                When User input Admin and John Lennon and john_lennon and Enabled and admin and admin
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=11">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         href="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.5s</span></td>
                 </tr>
                 <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Input user information: Admin, John Lennon, john_lennon, Enabled, admin, admin
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=13">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         href="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1.86s</span></td>
+                </tr>
+
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                And User click on Save Button
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="PENDING-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=15">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="f6db9555937af369cf8963c7ed877d868c21f20672a25cd7bf70acbe68f030f3.png"
+                                         href="f6db9555937af369cf8963c7ed877d868c21f20672a25cd7bf70acbe68f030f3.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">PENDING</span></td>
+                    <td width="100"><span class="nested-group-step">0.31s</span></td>
+                </tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Then User should see the user john_lennon under the System Users Table
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="PENDING-text">
+                        </td>
+                    <td width="100"><span class="nested-group-step">PENDING</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        <a name="1"/>
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block">
+                                <i class="fa fa-plus-square-o imgstepSection1 pending-icon"
+                                   style="margin-left: 20px; float:left;  padding-right:5px"></i>
+                            </a>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <a href="javaScript:void(0)" onClick="toggleDiv('stepSection1')"
+                               style="display:block;">
+                            <span class="top-level-step">
+                                Able to Add User Admin Role with Status Enable Successfully #2: {user_role=ESS, employee_name=Frank Sinarta, user_name=frank_sinarta, status=Disabled, password=admin, confirm_password=admin}
+                            </span>
+                            </a>
+
+                        </div>
+                    </td>
+                        <td width="100" class="PENDING-text">
+                        </td>
+                    <td width="100"><span class="top-level-step">PENDING</span></td>
+                    <td width="100"><span class="top-level-step">12.75s</span></td>
+                </tr>
+                    <tr>
+                    <td colspan="5">
+                    <table id="stepSection1" style="display:none; width:100%">
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given User is in the Login Page
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=16">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         href="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">4.45s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Open OHRM URL
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=17">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="19348b72020c4d17a57f2c28c6d2c11e50f515fdd0ea13f05a6a781f929e6268.png"
+                                         href="19348b72020c4d17a57f2c28c6d2c11e50f515fdd0ea13f05a6a781f929e6268.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1.25s</span></td>
+                </tr>
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given User has login to Portal with valid credential<br><table class='embedded'><thead><th>username</th><th>password</th></thead><tbody><tr><td>admin</td><td>admin</td></tr></tbody></table>
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=19">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         href="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.79s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Login to portal: admin, admin
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=21">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         href="62ff0feaf0cc87beff41f38035a4da5c2cfc3a6891a062cc0804a50a3743646a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">2.14s</span></td>
+                </tr>
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                Given User is in the Admin Portal - User Management - System Users
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=23">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
+                                         href="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.73s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Go to system users form
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=25">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
+                                         href="fac5e938c9c6c9369a739b706e0ce88390ba8a6cfadad1eee6eccdfdbebde83b.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">2.09s</span></td>
+                </tr>
+
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-step">
+                                When User input ESS and Frank Sinarta and frank_sinarta and Disabled and admin and admin
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=27">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         href="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-step">2.46s</span></td>
+                </tr>
+                <tr class="test-SUCCESS">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 60px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Input user information: ESS, Frank Sinarta, frank_sinarta, Disabled, admin, admin
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="SUCCESS-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=29">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         href="dc91bff15014a4c1f0588dd5059fc4f4697a0caf497b033bf30d8ebde167d0d2.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">SUCCESS</span></td>
+                    <td width="100"><span class="nested-group-step">1.84s</span></td>
+                </tr>
+
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                And User click on Save Button
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="PENDING-text">
+                                <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487_screenshots.html#screenshots?screenshot=31">
+                                    <!-- Added invalid href-attribute to img for imgpreviewer -->
+                                    <img src="c3380ecb42c4a2e4b31242a7ca1badca0b0abfa055b2748021a67540b6e5ad7a.png"
+                                         href="c3380ecb42c4a2e4b31242a7ca1badca0b0abfa055b2748021a67540b6e5ad7a.png"
+                                         class="screenshot"
+                                         width="48" height="48"/>
+                                </a>
+                        </td>
+                    <td width="100"><span class="nested-group-step">PENDING</span></td>
+                    <td width="100"><span class="nested-group-step">0.31s</span></td>
+                </tr>
+                <tr class="test-PENDING">
+                    <td width="60" class="step-icon">
+                        
+                            <span style="margin-left: 40px; margin-right: 5px;"
+                                  class="nested-group-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                    </td>
+                    <td>
+                        <div class="step-description">
+                            <span class="nested-group-step">
+                                Then User should see the user frank_sinarta under the System Users Table
+                            </span>
+
+                        </div>
+                    </td>
+                        <td width="100" class="PENDING-text">
+                        </td>
+                    <td width="100"><span class="nested-group-step">PENDING</span></td>
+                    <td width="100"><span class="nested-group-step">0s</span></td>
+                </tr>
+
+                    </table>
+                    </td>
+                    <tr>
+                <tr class="test-PENDING">
                     <td colspan="3"></td>
-                    <td width="100"><span class="top-level-step"><em>SUCCESS</em></span></td>
-                    <td width="100"><span class="top-level-step"><em>9.05s</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>PENDING</em></span></td>
+                    <td width="100"><span class="top-level-step"><em>26.87s</em></span></td>
                 </tr>
 
             </table>

@@ -49,8 +49,8 @@
     <script class="code" type="text/javascript">$(document).ready(function () {
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
-                ['Passing', 1],
-                ['Pending', 0],
+                ['Passing', 0],
+                ['Pending', 3],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -82,8 +82,8 @@
                 marginTop: '15px'
             },
             series: [
-                {label: '1 requirements tested successfully'},
-                {label: '0 requirements pending'},
+                {label: '0 requirements tested successfully'},
+                {label: '3 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -182,7 +182,7 @@
             <a href="#"><i class="fa fa-comments-o"></i> Features</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 05-01-2019 10:53</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 06-01-2019 01:06</span>
     <br style="clear:left"/>
 </div>
 
@@ -223,10 +223,10 @@
                                 <tr>
                                     <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
                                         (tests)</a></td>
-                                    <td>1</td>
-                                    <td>1</td>
+                                    <td>3</td>
                                     <td>0</td>
                                     <td>0</td>
+                                    <td>3</td>
                                     <td>0</td>
                                     <td></td>
                                 </tr>
@@ -254,10 +254,10 @@
         <body>
         <tr>
             <td class="summary-leading-column">Automated</td>
-            <td>1</td>
-            <td>1 (100%)</td>
+            <td>3</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
@@ -270,15 +270,15 @@
         </tr>
         <tr>
             <td class="summary-leading-column">Total</td>
-            <td>1</td>
-            <td>1 (100%)</td>
+            <td>3</td>
             <td>0 (0%)</td>
             <td>0 (0%)</td>
+            <td>3 (100%)</td>
             <td>0 (0%)</td>
         </tr>
         <tr>
             <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">9 seconds</td>
+                <td colspan="5">38 seconds</td>
         </tr>
         </body>
     </table>
@@ -306,27 +306,50 @@
                         </thead>
                         <tbody>
 
-                            <tr class="test-SUCCESS">
-                                <td><span class="summary-icon"><i class='fa fa-check-square-o success-icon ' title='SUCCESS'></i></span>
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
                                     
-                                    <span style="display:none">SUCCESS</span></td>
-                                <td class="SUCCESS-text">
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
                                     <div class="ellipsis">
 
                                         <a href="ff1d1a7dd142fea6284d64ce7268669f69e7e2e0729b9cc3f5a5c7e3a0b93487.html" class="ellipsis"
                                            title="Able to Add User Admin Role with Status Enable Successfully ">
-                                            Able to Add User Admin Role with Status Enable Successfully
+                                            Able to Add User Admin Role with Status Enable Successfully&nbsp;(2  examples)
                                                 <span class="related-issue-title"></span>
                                         </a>
                                     </div>
                                 </td>
 
-                                <td class="SUCCESS-text">9</td>
+                                <td class="PENDING-text">22</td>
 
 
-                                <td class="SUCCESS-text" data-sort="2019-01-05 10:53:53">10:53:53</td>
+                                <td class="PENDING-text" data-sort="2019-01-06 01:06:13">01:06:13</td>
 
-                                <td class="SUCCESS-text">9.05</td>
+                                <td class="PENDING-text">26.87</td>
+                            </tr>
+
+                            <tr class="test-PENDING">
+                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
+                                    
+                                    <span style="display:none">PENDING</span></td>
+                                <td class="PENDING-text">
+                                    <div class="ellipsis">
+
+                                        <a href="6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.html" class="ellipsis"
+                                           title="Able to Filter User Credential Successfully ">
+                                            Able to Filter User Credential Successfully
+                                                <span class="related-issue-title"></span>
+                                        </a>
+                                    </div>
+                                </td>
+
+                                <td class="PENDING-text">10</td>
+
+
+                                <td class="PENDING-text" data-sort="2019-01-06 01:06:40">01:06:40</td>
+
+                                <td class="PENDING-text">10.91</td>
                             </tr>
                         </tbody>
                     </table>

@@ -5,18 +5,23 @@ import cucumber.api.DataTable;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
+import org.openqa.selenium.WebDriver;
 
 import java.util.List;
 
 
 public class LoginStepDefinition {
+    @Managed
+    WebDriver driver;
 
     @Steps
     LoginSteps user;
 
     @Given("^User is in the Login Page$")
     public void user_is_in_the_Login_Page() throws Throwable {
+        driver.manage().window().maximize();
         user.open_OHRM_URL();
     }
 
@@ -28,10 +33,6 @@ public class LoginStepDefinition {
     @Then("^User is able to login$")
     public void User_is_able_to_login() throws Throwable {
         user.isDirectingToDashBoardPage();
-    }
-
-    @Then("^User is unable to login$")
-    public void userIsUnableToLogin() throws Throwable {
     }
 
     @When("^User provides invalid the Username (.*) and Password (.*)$")

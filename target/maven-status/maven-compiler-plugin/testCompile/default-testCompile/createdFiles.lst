@@ -6,6 +6,7 @@ com\ohrm\automation\pages\admin\Qlification_SkillsPage.class
 com\ohrm\automation\pages\dashboard\DashboardPage.class
 com\ohrm\automation\pages\admin\NationalitiesPage.class
 com\ohrm\automation\pages\admin\Org_LocationsPage.class
+com\ohrm\automation\serenitySteps\HomePageSteps.class
 com\ohrm\automation\pages\performance\EmplyeeTrackersPage.class
 com\ohrm\automation\pages\admin\Qlification_Language.class
 com\ohrm\automation\pages\admin\Config_EmailCofigPage.class

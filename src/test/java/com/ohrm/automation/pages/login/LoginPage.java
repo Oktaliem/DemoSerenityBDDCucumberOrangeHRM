@@ -1,5 +1,6 @@
-package com.ohrm.automation.pages;
+package com.ohrm.automation.pages.login;
 
+import com.ohrm.automation.pages.HomePage;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.DefaultUrl;
 import net.thucydides.core.annotations.Managed;
@@ -7,13 +8,14 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+
 import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 @DefaultUrl("http://127.0.0.1/orangehrm-4.0/symfony/web/index.php/auth/login")
 public class LoginPage extends PageObject {
     @Managed
-    WebDriver driver ;
+    WebDriver driver;
 
     @FindBy(id = "txtUsername")
     WebElement userNameLoginInput;
@@ -23,6 +25,7 @@ public class LoginPage extends PageObject {
 
     @FindBy(id = "btnLogin")
     WebElement loginSubmitBtn;
+
 
     public LoginPage(WebDriver driver) {
         this.driver = driver;
@@ -41,7 +44,8 @@ public class LoginPage extends PageObject {
     }
 
     public void checkErrorMessageLoginPage(String assertion) {
-        String element = driver.findElement(By.cssSelector("#spanMessage")).getText();;
+        String element = driver.findElement(By.cssSelector("#spanMessage")).getText();
+        ;
         switch (assertion) {
             case "invalid_credentials":
                 assertThat(element, equalTo("Invalid credentials"));

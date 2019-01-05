@@ -8,7 +8,7 @@ Folders :
 4. TestRunner : To Run Your Features File, glue between your feature and cucumbersteps
 
 # Run the Test Via Command Line
-Check your TestRunner folder
+Check your TestRunner folder for cucumber options
 
 i.e.
 - mvn clean verify

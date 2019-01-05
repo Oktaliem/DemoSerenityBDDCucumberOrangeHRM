@@ -27,6 +27,9 @@ Sample 1 :
 Sample 2 :
 ![serenity bdd cucumber html report sample 2](https://user-images.githubusercontent.com/26521948/50727587-f6aef980-1157-11e9-980c-b6a29c640886.png)
 
+Sample 3 :
+![serenity bdd cucumber html report sample 3](https://user-images.githubusercontent.com/26521948/50727623-602f0800-1158-11e9-83a0-4c4b27427cd5.png)
+
 ## Cucumber HTML Report Path
 {your_project_path}target/Report.HTML/index.html
 

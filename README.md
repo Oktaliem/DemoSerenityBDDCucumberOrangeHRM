@@ -10,12 +10,12 @@ Folders :
 # Run the Test Via Command Line
 Check your TestRunner folder
 
-mvn clean verify -Dcucumber.options=" --plugin {plugin} --tags {tag}"
-
-i.e. 
+i.e.
 - mvn clean verify
 - mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_3"
 - mvn clean verify -Dcucumber.options="src/test/resources/features/User_Management.feature"
+- mvn clean verify -Dcucumber.options="src/test/resources/features" -Dwebdriver.driver=chrome
+- mvn clean verify -Dwebdriver.driver=firefox
 
 # SerenityBDD HTML Report Path
 {your_project_path}/target/site/serenity/index.html

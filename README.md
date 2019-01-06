@@ -62,7 +62,7 @@ http://thucydides.info/docs/serenity-staging/
 
 <details>
 <summary>
-### CLICK ME
+CLICK ME
 </summary>
 <p>
  

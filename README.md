@@ -66,7 +66,7 @@ CLICK ME
 </summary>
 <p>
  
-```
+```maven
  C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM>mvn clean verify -Dcucumber.options="src/test/resources/features/"
 [INFO] Scanning for projects...
 [INFO]

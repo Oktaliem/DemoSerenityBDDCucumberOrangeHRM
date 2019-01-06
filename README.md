@@ -58,12 +58,11 @@ https://github.com/orangehrm/orangehrm
 http://thucydides.info/docs/serenity-staging/
 ```
 
-## Serenity Testing Log
+## Serenity BDD Testing Log
 
 <details>
 <summary>
-
-# CLICK ME
+### CLICK ME
 </summary>
 <p>
  

@@ -59,6 +59,10 @@ http://thucydides.info/docs/serenity-staging/
 ```
 
 ## Serenity Testing Log
+
+<details>
+<summary>
+
 # CLICK ME
 </summary>
 <p>

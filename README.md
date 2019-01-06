@@ -62,6 +62,7 @@ http://thucydides.info/docs/serenity-staging/
 # CLICK ME
 </summary>
 <p>
+ 
 ```
  C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM>mvn clean verify -Dcucumber.options="src/test/resources/features/"
 [INFO] Scanning for projects...

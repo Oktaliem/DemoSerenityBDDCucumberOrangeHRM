@@ -4,8 +4,8 @@ Serenity BDD + Cucumber + Java + Selenium + Page Object Model/Page Factory + ora
 Folders :
 1. Features : Test suit in gerkhin language. Each feature consists of test cases.
 2. CucumberSteps : Step Definition in cucumber, ie. Given When And Then
-3. SerenitySteps : To Create steps for Serenity BDD report with annotation @step
-4. TestRunner : To Run Your Features File, glue between your feature and cucumbersteps
+3. SerenitySteps : Create steps for Serenity BDD report with annotation @step
+4. TestRunner : Run Your Features File, glue between your feature and cucumbersteps
 
 ## Run the Test Via Command Line
 Check your TestRunner folder for cucumber options

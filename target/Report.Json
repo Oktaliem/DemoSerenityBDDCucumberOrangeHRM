@@ -11,7 +11,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4047743547,
+              "duration": 4007784862,
               "status": "passed"
             },
             "line": 9,
@@ -23,7 +23,7 @@
           },
           {
             "result": {
-              "duration": 2440908133,
+              "duration": 2791672193,
               "status": "passed"
             },
             "line": 16,
@@ -49,275 +49,7 @@
           },
           {
             "result": {
-              "duration": 2708731770,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User is in the Admin Portal - User Management - System Users",
-            "match": {
-              "location": "UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 31,
-        "name": "Able to Add User Admin Role with Status Enable Successfully",
-        "description": "",
-        "id": "user-management;able-to-add-user-admin-role-with-status-enable-successfully;;2",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2192154463,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "User input Admin and John Lennon and john_lennon and Enabled and admin and admin",
-            "match": {
-              "arguments": [
-                {
-                  "val": "Admin",
-                  "offset": 11
-                },
-                {
-                  "val": "John Lennon",
-                  "offset": 21
-                },
-                {
-                  "val": "john_lennon",
-                  "offset": 37
-                },
-                {
-                  "val": "Enabled",
-                  "offset": 53
-                },
-                {
-                  "val": "admin",
-                  "offset": 65
-                },
-                {
-                  "val": "admin",
-                  "offset": 75
-                }
-              ],
-              "location": "UserManagementStepDefinition.InputUserInformation(String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userClickOnSaveButton(UserManagementStepDefinition.java:84)\r\n\tat ✽.User click on Save Button(src/test/resources/features/UserManagement.feature:27)\r\n",
-              "duration": 305898803,
-              "status": "pending"
-            },
-            "line": 27,
-            "name": "User click on Save Button",
-            "match": {
-              "location": "UserManagementStepDefinition.userClickOnSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "User should see the user john_lennon under the System Users Table",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression"
-          }
-        ]
-      },
-      {
-        "line": 8,
-        "name": "User is in the Login Page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4109260735,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is in the Login Page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2468923205,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User has login to Portal with valid credential",
-            "match": {
-              "location": "LoginStepDefinition.userHasLoginToPortalWithValidCredential(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "password"
-                ]
-              },
-              {
-                "cells": [
-                  "admin",
-                  "admin"
-                ]
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2413072981,
-              "status": "passed"
-            },
-            "line": 19,
-            "name": "User is in the Admin Portal - User Management - System Users",
-            "match": {
-              "location": "UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()"
-            },
-            "keyword": "Given "
-          }
-        ]
-      },
-      {
-        "line": 32,
-        "name": "Able to Add User Admin Role with Status Enable Successfully",
-        "description": "",
-        "id": "user-management;able-to-add-user-admin-role-with-status-enable-successfully;;3",
-        "type": "scenario",
-        "keyword": "Scenario Outline",
-        "steps": [
-          {
-            "result": {
-              "duration": 2146578694,
-              "status": "passed"
-            },
-            "line": 26,
-            "name": "User input ESS and Frank Sinarta and frank_sinarta and Disabled and admin and admin",
-            "match": {
-              "arguments": [
-                {
-                  "val": "ESS",
-                  "offset": 11
-                },
-                {
-                  "val": "Frank Sinarta",
-                  "offset": 19
-                },
-                {
-                  "val": "frank_sinarta",
-                  "offset": 37
-                },
-                {
-                  "val": "Disabled",
-                  "offset": 55
-                },
-                {
-                  "val": "admin",
-                  "offset": 68
-                },
-                {
-                  "val": "admin",
-                  "offset": 78
-                }
-              ],
-              "location": "UserManagementStepDefinition.InputUserInformation(String,String,String,String,String,String)"
-            },
-            "keyword": "When "
-          },
-          {
-            "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userClickOnSaveButton(UserManagementStepDefinition.java:84)\r\n\tat ✽.User click on Save Button(src/test/resources/features/UserManagement.feature:27)\r\n",
-              "duration": 312153332,
-              "status": "pending"
-            },
-            "line": 27,
-            "name": "User click on Save Button",
-            "match": {
-              "location": "UserManagementStepDefinition.userClickOnSaveButton()"
-            },
-            "keyword": "And "
-          },
-          {
-            "result": {
-              "status": "undefined"
-            },
-            "line": 28,
-            "name": "User should see the user frank_sinarta under the System Users Table",
-            "match": {},
-            "keyword": "Then "
-          }
-        ],
-        "tags": [
-          {
-            "name": "@regression"
-          }
-        ]
-      },
-      {
-        "line": 8,
-        "name": "User is in the Login Page",
-        "description": "",
-        "type": "background",
-        "keyword": "Background",
-        "steps": [
-          {
-            "result": {
-              "duration": 4079171957,
-              "status": "passed"
-            },
-            "line": 9,
-            "name": "User is in the Login Page",
-            "match": {
-              "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2632871882,
-              "status": "passed"
-            },
-            "line": 16,
-            "name": "User has login to Portal with valid credential",
-            "match": {
-              "location": "LoginStepDefinition.userHasLoginToPortalWithValidCredential(DataTable)"
-            },
-            "rows": [
-              {
-                "cells": [
-                  "username",
-                  "password"
-                ]
-              },
-              {
-                "cells": [
-                  "admin",
-                  "admin"
-                ]
-              }
-            ],
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 2600531020,
+              "duration": 2244382655,
               "status": "passed"
             },
             "line": 19,
@@ -340,7 +72,7 @@
           {
             "result": {
               "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userFilterUserCredentialByUser_name(UserManagementStepDefinition.java:60)\r\n\tat ✽.User filter user credential by \u003cuser_name\u003e(src/test/resources/features/UserManagement.feature:35)\r\n",
-              "duration": 335750601,
+              "duration": 310019874,
               "status": "pending"
             },
             "line": 35,

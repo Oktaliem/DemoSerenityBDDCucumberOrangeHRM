@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.automation.TestRunner.UserManagementTestRunner" time="38.469" tests="5" errors="0" skipped="5" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.automation.TestRunner.UserManagementTestRunner" time="10.595" tests="1" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -28,7 +28,7 @@
     <property name="os.name" value="Windows 10"/>
     <property name="classworlds.conf" value="C:\Program Files\apache-maven-3.5.3\bin\..\bin\m2.conf"/>
     <property name="sun.jnu.encoding" value="GBK"/>
-    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Docker\Docker\Resources\bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\apache-maven-3.5.3;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\User\Documents\SELENIUMPRACTICE\OrangeHRMPageFactoryOkta\driver;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Local\Android\Sdk;C:\Users\User\AppData\Local\Android\Sdk\build-tools;C:\Users\User\Documents\SELENIUMPRACTICE\OrangeHRMPageFactoryOkta\driver;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Users\User\AppData\Local\Programs\Fiddler;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;."/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_161\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files\nodejs\;C:\Program Files\apache-maven-3.5.3\bin;C:\Program Files\apache-maven-3.5.3;C:\Program Files\Java\jdk1.8.0_161\bin;C:\Program Files\Git\cmd;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\PuTTY\;C:\Users\User\Documents\SELENIUMPRACTICE\OrangeHRMPageFactoryOkta\driver;C:\WINDOWS\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Users\User\AppData\Local\Android\Sdk\platform-tools;C:\Users\User\AppData\Local\Android\Sdk;C:\Users\User\AppData\Local\Android\Sdk\build-tools;C:\Users\User\Documents\SELENIUMPRACTICE\OrangeHRMPageFactoryOkta\driver;C:\Users\User\AppData\Local\Microsoft\WindowsApps;C:\Users\User\AppData\Roaming\npm;C:\Users\User\AppData\Local\GitHubDesktop\bin;C:\Program Files\Microsoft VS Code\bin;C:\Users\User\AppData\Local\Microsoft\WindowsApps;;C:\Users\User\AppData\Local\Programs\Fiddler;C:\Users\User\.dotnet\tools;C:\Users\User\AppData\Local\Programs\Microsoft VS Code\bin;."/>
     <property name="maven.conf" value="C:\Program Files\apache-maven-3.5.3\bin\../conf"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
     <property name="java.class.version" value="52.0"/>
@@ -64,24 +64,17 @@
     <property name="sun.desktop" value="windows"/>
     <property name="sun.cpu.isalist" value="amd64"/>
   </properties>
-  <testcase name="Able to Add User Admin Role with Status Enable Successfully" classname="User Management" time="0">
+  <testcase name="Able to Filter User Credential Successfully" classname="User Management" time="0">
     <skipped/>
     <system-out><![CDATA[
 1 Scenarios (&amp#27;[32m1 passed&amp#27;[0m)
 5 Steps (&amp#27;[32m5 passed&amp#27;[0m)
-0m12.278s
+0m10.611s
 
 @regression
 Feature: User Management
   In Order To Manage OHRM Portal
   User Admin should be able to add, view and delete users credential
-
-  Scenario Outline: Able to Add User Admin Role with Status Enable Successfully &amp#27;[90m# src/test/resources/features/UserManagement.feature:21&amp#27;[0m
-    &amp#27;[36mWhen User input <user_role> and <employee_name> and <user_name> and <status> and <password> and <confirm_password>&amp#27;[0m
-    &amp#27;[36mAnd User click on Save Button&amp#27;[0m
-    &amp#27;[36mThen User should see the user <user_name> under the System Users Table&amp#27;[0m
-
-    Examples: 
 
   Background: User is in the Login Page                                &amp#27;[90m# src/test/resources/features/UserManagement.feature:8&amp#27;[0m
     &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is in the Login Page&amp#27;[0m                                    &amp#27;[90m# LoginStepDefinition.user_is_in_the_Login_Page()&amp#27;[0m
@@ -89,14 +82,15 @@ Feature: User Management
     &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is in the Admin Portal - User Management - System Users&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()&amp#27;[0m
 
   @regression
-  Scenario Outline: Able to Add User Admin Role with Status Enable Successfully           &amp#27;[90m# src/test/resources/features/UserManagement.feature:31&amp#27;[0m
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser input &amp#27;[0m&amp#27;[32m&amp#27;[1mAdmin&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mJohn Lennon&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mjohn_lennon&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mEnabled&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1madmin&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1madmin&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.InputUserInformation(String,String,String,String,String,String)&amp#27;[0m
-    &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mUser click on Save Button&amp#27;[0m                                                         &amp#27;[90m# UserManagementStepDefinition.userClickOnSaveButton()&amp#27;[0m
+  Scenario: Able to Filter User Credential Successfully             &amp#27;[90m# src/test/resources/features/UserManagement.feature:34&amp#27;[0m
+    &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser filter user credential by <user_name>&amp#27;[0m                 &amp#27;[90m# UserManagementStepDefinition.userFilterUserCredentialByUser_name()&amp#27;[0m
       &amp#27;[33mcucumber.api.PendingException: TODO: implement me
-	at com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userClickOnSaveButton(UserManagementStepDefinition.java:84)
-	at ?.User click on Save Button(src/test/resources/features/UserManagement.feature:27)
+	at com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userFilterUserCredentialByUser_name(UserManagementStepDefinition.java:60)
+	at ?.User filter user credential by <user_name>(src/test/resources/features/UserManagement.feature:35)
 &amp#27;[0m
-    &amp#27;[33mThen &amp#27;[0m&amp#27;[33mUser should see the user john_lennon under the System Users Table&amp#27;[0m                &amp#27;[90m# null&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is able to <user_name> only in the system users table&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.userIsAbleToUser_nameOnlyInTheSystemUsersTable()&amp#27;[0m
+    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser filter user credential by <user_role>&amp#27;[0m                 &amp#27;[90m# UserManagementStepDefinition.userFilterUserCredentialByUser_role()&amp#27;[0m
+    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is able to se <user_role> in the system users table&amp#27;[0m   &amp#27;[90m# UserManagementStepDefinition.userIsAbleToSeUser_roleInTheSystemUsersTable()&amp#27;[0m
 ]]></system-out>
     <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
         __    _____ _____ ____ _____   ____   _    ____  ____  _____ ____  
@@ -117,122 +111,11 @@ TEST PASSED: Logout from the Portal successfully
   |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
                                                                   
 
-TEST STARTED: Able to Add User Admin Role with Status Enable Successfully
--------------------------------------------------------------------(user-management;able-to-add-user-admin-role-with-status-enable-successfully)
-Jan 06, 2019 1:06:13 AM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Jan 06, 2019 1:06:15 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Able to Add User Admin Role with Status Enable Successfully
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="Able to Add User Admin Role with Status Enable Successfully" classname="User Management" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Able to Add User Admin Role with Status Enable Successfully" classname="User Management" time="0">
-    <skipped/>
-    <system-out><![CDATA[
-  Background: User is in the Login Page                                &amp#27;[90m# src/test/resources/features/UserManagement.feature:8&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is in the Login Page&amp#27;[0m                                    &amp#27;[90m# LoginStepDefinition.user_is_in_the_Login_Page()&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has login to Portal with valid credential&amp#27;[0m               &amp#27;[90m# LoginStepDefinition.userHasLoginToPortalWithValidCredential(DataTable)&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is in the Admin Portal - User Management - System Users&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()&amp#27;[0m
-
-  @regression
-  Scenario Outline: Able to Add User Admin Role with Status Enable Successfully              &amp#27;[90m# src/test/resources/features/UserManagement.feature:32&amp#27;[0m
-    &amp#27;[32mWhen &amp#27;[0m&amp#27;[32mUser input &amp#27;[0m&amp#27;[32m&amp#27;[1mESS&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mFrank Sinarta&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mfrank_sinarta&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1mDisabled&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1madmin&amp#27;[0m&amp#27;[32m and &amp#27;[0m&amp#27;[32m&amp#27;[1madmin&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.InputUserInformation(String,String,String,String,String,String)&amp#27;[0m
-    &amp#27;[33mAnd &amp#27;[0m&amp#27;[33mUser click on Save Button&amp#27;[0m                                                            &amp#27;[90m# UserManagementStepDefinition.userClickOnSaveButton()&amp#27;[0m
-      &amp#27;[33mcucumber.api.PendingException: TODO: implement me
-	at com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userClickOnSaveButton(UserManagementStepDefinition.java:84)
-	at ?.User click on Save Button(src/test/resources/features/UserManagement.feature:27)
-&amp#27;[0m
-    &amp#27;[33mThen &amp#27;[0m&amp#27;[33mUser should see the user frank_sinarta under the System Users Table&amp#27;[0m                 &amp#27;[90m# null&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Able to Add User Admin Role with Status Enable Successfully
----------------------------------------------------------------------------------
-Jan 06, 2019 1:06:26 AM org.openqa.selenium.remote.DesiredCapabilities chrome
-INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Jan 06, 2019 1:06:28 AM org.openqa.selenium.remote.ProtocolHandshake createSession
-INFO: Detected dialect: OSS
-[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[main] INFO net.serenitybdd.core.Serenity - TEST PENDING
-[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Able to Add User Admin Role with Status Enable Successfully
----------------------------------------------------------------------------------
-]]></system-err>
-  </testcase>
-  <testcase name="Able to Add User Admin Role with Status Enable Successfully" classname="User Management" time="0">
-    <skipped/>
-  </testcase>
-  <testcase name="Able to Filter User Credential Successfully" classname="User Management" time="0">
-    <skipped/>
-    <system-out><![CDATA[
-  Background: User is in the Login Page                                &amp#27;[90m# src/test/resources/features/UserManagement.feature:8&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is in the Login Page&amp#27;[0m                                    &amp#27;[90m# LoginStepDefinition.user_is_in_the_Login_Page()&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser has login to Portal with valid credential&amp#27;[0m               &amp#27;[90m# LoginStepDefinition.userHasLoginToPortalWithValidCredential(DataTable)&amp#27;[0m
-    &amp#27;[32mGiven &amp#27;[0m&amp#27;[32mUser is in the Admin Portal - User Management - System Users&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()&amp#27;[0m
-
-  @regression
-  Scenario: Able to Filter User Credential Successfully             &amp#27;[90m# src/test/resources/features/UserManagement.feature:34&amp#27;[0m
-    &amp#27;[33mWhen &amp#27;[0m&amp#27;[33mUser filter user credential by <user_name>&amp#27;[0m                 &amp#27;[90m# UserManagementStepDefinition.userFilterUserCredentialByUser_name()&amp#27;[0m
-      &amp#27;[33mcucumber.api.PendingException: TODO: implement me
-	at com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userFilterUserCredentialByUser_name(UserManagementStepDefinition.java:60)
-	at ?.User filter user credential by <user_name>(src/test/resources/features/UserManagement.feature:35)
-&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is able to <user_name> only in the system users table&amp#27;[0m &amp#27;[90m# UserManagementStepDefinition.userIsAbleToUser_nameOnlyInTheSystemUsersTable()&amp#27;[0m
-    &amp#27;[36mWhen &amp#27;[0m&amp#27;[36mUser filter user credential by <user_role>&amp#27;[0m                 &amp#27;[90m# UserManagementStepDefinition.userFilterUserCredentialByUser_role()&amp#27;[0m
-    &amp#27;[36mThen &amp#27;[0m&amp#27;[36mUser is able to se <user_role> in the system users table&amp#27;[0m   &amp#27;[90m# UserManagementStepDefinition.userIsAbleToSeUser_roleInTheSystemUsersTable()&amp#27;[0m
-]]></system-out>
-    <system-err><![CDATA[[main] INFO net.serenitybdd.core.Serenity - 
-          __  _____ _____ ____ _____   ____  _____ _   _ ____ ___ _   _  ____ 
- _       / / |_   _| ____/ ___|_   _| |  _ \| ____| \ | |  _ \_ _| \ | |/ ___|
-(_)____ / /    | | |  _| \___ \ | |   | |_) |  _| |  \| | | | | ||  \| | |  _ 
- |_____/ /     | | | |___ ___) || |   |  __/| |___| |\  | |_| | || |\  | |_| |
-(_)   /_/      |_| |_____|____/ |_|   |_|   |_____|_| \_|____/___|_| \_|\____|
-                                                                                
-
-TEST PENDING: Able to Add User Admin Role with Status Enable Successfully
----------------------------------------------------------------------------------
-[main] INFO net.serenitybdd.core.Serenity - 
- _____ _____ ____ _____   ____ _____  _    ____ _____ _____ ____  
-|_   _| ____/ ___|_   _| / ___|_   _|/ \  |  _ \_   _| ____|  _ \ 
-  | | |  _| \___ \ | |   \___ \ | | / _ \ | |_) || | |  _| | | | |
-  | | | |___ ___) || |    ___) || |/ ___ \|  _ < | | | |___| |_| |
-  |_| |_____|____/ |_|   |____/ |_/_/   \_\_| \_\|_| |_____|____/ 
-                                                                  
-
 TEST STARTED: Able to Filter User Credential Successfully
 -------------------------------------------------------------------(user-management;able-to-filter-user-credential-successfully)
-Jan 06, 2019 1:06:40 AM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jan 27, 2019 10:58:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Jan 06, 2019 1:06:42 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 27, 2019 10:58:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
 [main] INFO net.serenitybdd.core.Serenity - 

@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ohrm.automation.TestRunner.UserManagementTestRunner
 -------------------------------------------------------------------------------
-Tests run: 5, Failures: 0, Errors: 0, Skipped: 5, Time elapsed: 38.469 sec - in com.ohrm.automation.TestRunner.UserManagementTestRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 10.595 sec - in com.ohrm.automation.TestRunner.UserManagementTestRunner

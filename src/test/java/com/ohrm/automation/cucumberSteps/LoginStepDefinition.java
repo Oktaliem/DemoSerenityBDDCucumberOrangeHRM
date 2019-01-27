@@ -77,6 +77,7 @@ public class LoginStepDefinition {
     @Given("^User has login to Portal with valid credential$")
     public void userHasLoginToPortalWithValidCredential(DataTable table) throws Throwable {
         List<List<String>> data = table.raw();
+        // data.get(1).get(0) baris kemudian kolom
         user.LoginToPortal(data.get(1).get(0), data.get(1).get(1));
     }
 }

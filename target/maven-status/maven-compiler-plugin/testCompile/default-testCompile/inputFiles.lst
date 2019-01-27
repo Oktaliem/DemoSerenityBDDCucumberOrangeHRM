@@ -1,3 +1,4 @@
+C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\TestRunner\AddEmployeeTestRunner.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\serenitySteps\UserManagementSteps.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Job_WorkShiftsPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Qlification_MembershipPage.java
@@ -26,7 +27,7 @@ C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\co
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\recruitment\VacanciesPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Org_GeneralInfoPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Qlification_Licenses.java
-C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\pim\AddEmplyeePage.java
+C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\serenitySteps\AddEmployeeSteps.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\performance\Config_KPIsPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Qlification_SkillsPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\cucumberSteps\LogoutStepDefinition.java
@@ -35,8 +36,10 @@ C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\co
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\admin\Config_RegOAuthClntPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\recruitment\CandidatesPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\time\TimePage.java
+C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\cucumberSteps\AddEmployeeStepDefinition.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\leave\LeavePage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\pim\EmplyeeListPage.java
+C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\pim\AddEmployeePage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\pim\Config_TerminateReasnPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\pages\pim\ReportsPage.java
 C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java\com\ohrm\automation\serenitySteps\LoginSteps.java

@@ -13,4 +13,10 @@ public class HomePageSteps {
         homePage.clickOnUserManagementList();
         homePage.clickOnUserTab();
     }
+
+    public void goToAddEmployeePage() {
+        homePage.clickOnPIMTab();
+        homePage.clickOnAddEmployeeTab();
+
+    }
 }

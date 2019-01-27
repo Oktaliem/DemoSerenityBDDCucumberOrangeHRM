@@ -24,12 +24,12 @@ Feature: User Management
     #https://www.tutorialspoint.com/cucumber/cucumber_scenario_outline.htm
     #https://docs.cucumber.io/guides/10-minute-tutorial/
     When User input <user_role> and <employee_name> and <user_name> and <status> and <password> and <confirm_password>
-    And User click on Save Button
-    Then User should see the user <user_name> under the System Users Table
-    Examples:
-      | user_role | employee_name | user_name     | status   | password | confirm_password |
-      | Admin     | John Lennon   | john_lennon   | Enabled  | admin    | admin            |
-      | ESS       | Frank Sinarta | frank_sinarta | Disabled | admin    | admin            |
+    #And User click on Save Button
+    #Then User should see the user <user_name> under the System Users Table
+    #Examples:
+    #  | user_role | employee_name | user_name     | status   | password | confirm_password |
+    #  | Admin     | John Lennon   | john_lennon   | Enabled  | admin    | admin            |
+    #  | ESS       | Frank Sinarta | frank_sinarta | Disabled | admin    | admin            |
 
   Scenario:  Able to Filter User Credential Successfully
     When User filter user credential by <user_name>

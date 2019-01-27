@@ -32,6 +32,14 @@ public class HomePage extends PageObject {
     @FindBy(id = "welcome")
     public WebElement welcomeButton;
 
+    @FindBy(css="#menu_pim_viewPimModule > b")
+    public WebElement PIMTab;
+
+    @FindBy(xpath="//*[@id=\"menu_pim_addEmployee\"]")
+    public WebElement AddEmplyTab;
+
+    ////*[@id="menu_pim_addEmployee"]
+
     public HomePage(WebDriver driver) {
         this.driver = driver;
     }
@@ -61,6 +69,14 @@ public class HomePage extends PageObject {
     public void waitUntilElementIsPresentByXpath(String element) {
         WebDriverWait wait = new WebDriverWait(driver, 10);
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath(element)));
+    }
+
+    public void clickOnPIMTab(){
+        PIMTab.click();
+    }
+
+    public void clickOnAddEmployeeTab(){
+        AddEmplyTab.click();
     }
 
 

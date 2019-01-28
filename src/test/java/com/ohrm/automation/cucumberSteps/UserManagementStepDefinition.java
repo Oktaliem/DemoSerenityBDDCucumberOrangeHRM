@@ -11,7 +11,7 @@ import cucumber.api.java.en.When;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.openqa.selenium.WebDriver;
-import static URLs.OHRM_URL.viewSystemUsers;
+import static com.ohrm.automation.urls.OHRM_URL.viewSystemUsers;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 

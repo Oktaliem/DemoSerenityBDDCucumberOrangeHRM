@@ -1,4 +1,4 @@
-package URLs;
+package com.ohrm.automation.urls;
 
 public class OHRM_URL {
 

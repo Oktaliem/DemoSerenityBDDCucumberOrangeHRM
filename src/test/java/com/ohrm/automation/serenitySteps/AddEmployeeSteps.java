@@ -1,9 +1,14 @@
 package com.ohrm.automation.serenitySteps;
 
+import com.ohrm.automation.model.TestDataModelAdmin;
+import com.ohrm.automation.model.TestDataModelLogin;
+import com.ohrm.automation.model.TestDataModelPIM;
 import com.ohrm.automation.pages.pim.AddEmployeePage;
 import com.ohrm.automation.utils.CreateRandomName;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Step;
+import org.junit.Rule;
+import org.junit.rules.TestName;
 import org.openqa.selenium.WebDriver;
 
 public class AddEmployeeSteps {
@@ -12,6 +17,9 @@ public class AddEmployeeSteps {
 
     AddEmployeePage addEmployeePage;
     CreateRandomName randomName;
+
+    @Rule
+    public TestName testName = new TestName();
 
     @Step
     public void inputNameInformation(String firstName, String middleName, String lastName) {
@@ -33,9 +41,9 @@ public class AddEmployeeSteps {
         addEmployeePage.clickOnSaveButtonEmployeePage();
     }
     @Step
-    public void inputLoginInformation(String userName, String pass, String rePass) {
+    public void inputLoginInformation(TestDataModelPIM testData) {
         addEmployeePage.clickOnRadioButton();
-        addEmployeePage.inputUsernameAndPassword(userName,pass,rePass);
+        addEmployeePage.inputUsernameAndPassword(testData);
 
     }
 }

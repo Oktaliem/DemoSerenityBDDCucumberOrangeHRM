@@ -1,5 +1,6 @@
 package com.ohrm.automation.pages.pim;
 
+import com.ohrm.automation.model.TestDataModelPIM;
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Managed;
 import org.openqa.selenium.WebDriver;
@@ -45,9 +46,9 @@ public class AddEmployeePage extends PageObject {
         clickOn(buttonSave);
     }
 
-    public void inputUsernameAndPassword(String userName, String pass, String rePass) {
-        userNameField.sendKeys(userName);
-        userPassField.sendKeys(pass);
-        userRePassField.sendKeys(rePass);
+    public void inputUsernameAndPassword(TestDataModelPIM testData) {
+        userNameField.sendKeys(testData.getUserName());
+        userPassField.sendKeys(testData.getPassword());
+        userRePassField.sendKeys(testData.getConfPassword());
     }
 }

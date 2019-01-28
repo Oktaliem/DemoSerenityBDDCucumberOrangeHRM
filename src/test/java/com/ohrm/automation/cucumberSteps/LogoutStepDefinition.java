@@ -7,7 +7,7 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.openqa.selenium.WebDriver;
 
-import static URLs.OHRM_URL.loginPageURL;
+import static com.ohrm.automation.urls.OHRM_URL.loginPageURL;
 import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 

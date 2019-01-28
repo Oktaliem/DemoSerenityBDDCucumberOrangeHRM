@@ -5,8 +5,6 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebDriver;
 
-import static URLs.OHRM_URL.viewSystemUsers;
-import static org.hamcrest.CoreMatchers.containsString;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class UserManagementSteps {

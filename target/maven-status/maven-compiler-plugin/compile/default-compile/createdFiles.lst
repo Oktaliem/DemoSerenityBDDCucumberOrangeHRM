@@ -1,4 +1,7 @@
-URLs\OHRM_URL.class
-com\ohrm\automation\helper\DatabaseHelper.class
+com\ohrm\automation\urls\OHRM_URL.class
 com\ohrm\automation\utils\CreateRandomName.class
+com\ohrm\automation\helper\DatabaseHelper.class
+com\ohrm\automation\model\TestDataModelAdmin.class
+com\ohrm\automation\model\TestDataModelLogin.class
+com\ohrm\automation\model\TestDataModelPIM.class
 com\ohrm\automation\utils\RandomNumber.class

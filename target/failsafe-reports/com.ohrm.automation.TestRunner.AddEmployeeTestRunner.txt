@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: com.ohrm.automation.TestRunner.AddEmployeeTestRunner
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.508 sec - in com.ohrm.automation.TestRunner.AddEmployeeTestRunner
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 23.611 sec - in com.ohrm.automation.TestRunner.AddEmployeeTestRunner

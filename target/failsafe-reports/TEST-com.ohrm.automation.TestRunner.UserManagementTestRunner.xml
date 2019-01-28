@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.automation.TestRunner.UserManagementTestRunner" time="10.595" tests="1" errors="0" skipped="1" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ohrm.automation.TestRunner.UserManagementTestRunner" time="9.607" tests="1" errors="0" skipped="1" failures="0">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_161\jre\bin"/>
@@ -69,7 +69,7 @@
     <system-out><![CDATA[
 1 Scenarios (&amp#27;[32m1 passed&amp#27;[0m)
 5 Steps (&amp#27;[32m5 passed&amp#27;[0m)
-0m10.611s
+0m10.388s
 
 @regression
 Feature: User Management
@@ -113,9 +113,9 @@ TEST PASSED: Logout from the Portal successfully
 
 TEST STARTED: Able to Filter User Credential Successfully
 -------------------------------------------------------------------(user-management;able-to-filter-user-credential-successfully)
-Jan 27, 2019 10:58:49 PM org.openqa.selenium.remote.DesiredCapabilities chrome
+Jan 28, 2019 10:55:50 AM org.openqa.selenium.remote.DesiredCapabilities chrome
 INFO: Using `new ChromeOptions()` is preferred to `DesiredCapabilities.chrome()`
-Jan 27, 2019 10:58:50 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+Jan 28, 2019 10:55:52 AM org.openqa.selenium.remote.ProtocolHandshake createSession
 INFO: Detected dialect: OSS
 [main] INFO net.serenitybdd.core.Serenity - TEST PENDING
 [main] INFO net.serenitybdd.core.Serenity - 

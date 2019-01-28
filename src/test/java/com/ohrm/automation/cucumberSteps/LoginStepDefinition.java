@@ -2,6 +2,7 @@ package com.ohrm.automation.cucumberSteps;
 
 import com.ohrm.automation.serenitySteps.LoginSteps;
 import cucumber.api.DataTable;
+import cucumber.api.java.en.And;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -18,6 +19,17 @@ public class LoginStepDefinition {
 
     @Steps
     LoginSteps user;
+
+    private static String userName;
+    private static String pswd;
+
+    public static String getUserName() {
+        return userName;
+    }
+
+    public static String getPswd() {
+        return pswd;
+    }
 
     @Given("^User is in the Login Page$")
     public void user_is_in_the_Login_Page() throws Throwable {
@@ -79,5 +91,7 @@ public class LoginStepDefinition {
         List<List<String>> data = table.raw();
         // data.get(1).get(0) baris kemudian kolom
         user.LoginToPortal(data.get(1).get(0), data.get(1).get(1));
+        userName = data.get(1).get(0);
+        pswd = data.get(1).get(1);
     }
 }

@@ -2,6 +2,8 @@ package com.ohrm.automation.pages.admin;
 
 import net.serenitybdd.core.pages.PageObject;
 import net.thucydides.core.annotations.Managed;
+import org.openqa.selenium.By;
+import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -11,9 +13,7 @@ public class UserMgn_UserPage extends PageObject {
     @Managed
     WebDriver driver = null;
 
-    /**
-     * General Element collection
-     */
+    //General purpose
     @FindBy(xpath = "//*[@id=\"systemUser-information\"]/a[1]")
     WebElement systemUsersToggle;
     @FindBy(id = "searchBtn")
@@ -28,9 +28,8 @@ public class UserMgn_UserPage extends PageObject {
     WebElement searchSystemUser_status;
     @FindBy(id = "btnAdd")
     WebElement addUserBtn;
-    /**
-     * This collection is for Add New User
-     */
+
+    //Add New User
     @FindBy(id = "systemUser_userType")
     WebElement addSystemUsers_userName;
     @FindBy(id = "systemUser_employeeName_empName")
@@ -43,6 +42,13 @@ public class UserMgn_UserPage extends PageObject {
     WebElement addPassword;
     @FindBy(id = "systemUser_confirmPassword")
     WebElement addConfirmPassword;
+
+    //Edit user
+    @FindBy(id = "systemUser_employeeName_empName")
+    WebElement employeeName;
+    @FindBy(id = "systemUser_userName")
+    WebElement userName;
+
 
     public UserMgn_UserPage(WebDriver driver) {
         this.driver = driver;
@@ -68,6 +74,7 @@ public class UserMgn_UserPage extends PageObject {
 
     public void inputEmployeeName(String eName) {
         searchSystemUsers_eName.sendKeys(eName);
+        searchSystemUsers_eName.sendKeys(Keys.TAB);
     }
 
     public void selectStatus(String userStatus) {
@@ -101,5 +108,22 @@ public class UserMgn_UserPage extends PageObject {
     public void inputAddConfirmPassword(String addConfirmPass) {
         addConfirmPassword.sendKeys(addConfirmPass);
     }
-    // WebDriverWait wait = new WebDriverWait(driver, 10)
+
+    public String getEmployeeName() {
+        return employeeName.getAttribute("value");
+    }
+
+    public String getUserName() {
+        return userName.getAttribute("value");
+    }
+
+    public void searchUserNameByEmployeeName(String fullName) {
+        searchSystemUsers_eName.sendKeys(fullName);
+        searchSystemUsers_eName.sendKeys(Keys.TAB);
+        searchButtonSU.click();
+    }
+
+    public String getFirstUserNameInTheTable(){
+        return driver.findElement(By.cssSelector("table#resultTable > tbody > tr > td:nth-of-type(2) > a")).getText();
+    }
 }

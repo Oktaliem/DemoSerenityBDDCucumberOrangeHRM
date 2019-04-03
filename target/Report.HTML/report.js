@@ -2,12 +2,7 @@ $(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.
 formatter.feature({
   "name": "User Management",
   "description": "  In Order To Manage OHRM Portal\n  User Admin should be able to add, view and delete users credential",
-  "keyword": "Feature",
-  "tags": [
-    {
-      "name": "@regression"
-    }
-  ]
+  "keyword": "Feature"
 });
 formatter.background({
   "name": "User is in the Login Page",
@@ -42,11 +37,9 @@ formatter.step({
   ],
   "keyword": "Given "
 });
-formatter.match({
-  "location": "LoginStepDefinition.userHasLoginToPortalWithValidCredential(DataTable)"
-});
+formatter.match({});
 formatter.result({
-  "status": "passed"
+  "status": "undefined"
 });
 formatter.step({
   "name": "User is in the Admin Portal - User Management - System Users",
@@ -56,17 +49,12 @@ formatter.match({
   "location": "UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()"
 });
 formatter.result({
-  "status": "passed"
+  "status": "skipped"
 });
 formatter.scenario({
   "name": "Able to Filter User Credential Successfully",
   "description": "",
-  "keyword": "Scenario",
-  "tags": [
-    {
-      "name": "@regression"
-    }
-  ]
+  "keyword": "Scenario"
 });
 formatter.step({
   "name": "User filter user credential by \u003cuser_name\u003e",
@@ -76,8 +64,7 @@ formatter.match({
   "location": "UserManagementStepDefinition.userFilterUserCredentialByUser_name()"
 });
 formatter.result({
-  "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userFilterUserCredentialByUser_name(UserManagementStepDefinition.java:60)\r\n\tat ✽.User filter user credential by \u003cuser_name\u003e(src/test/resources/features/UserManagement.feature:35)\r\n",
-  "status": "pending"
+  "status": "skipped"
 });
 formatter.step({
   "name": "User is able to \u003cuser_name\u003e only in the system users table",

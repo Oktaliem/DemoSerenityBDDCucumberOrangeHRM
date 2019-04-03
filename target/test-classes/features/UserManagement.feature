@@ -1,9 +1,8 @@
 # Author : Okta Liem
-
-@regression
 Feature: User Management
   In Order To Manage OHRM Portal
   User Admin should be able to add, view and delete users credential
+
 
   Background: User is in the Login Page
     Given User is in the Login Page
@@ -18,6 +17,7 @@ Feature: User Management
       | admin    | admin    |
     Given User is in the Admin Portal - User Management - System Users
 
+  @regression
   Scenario Outline: Able to Add User Admin Role with Status Enable Successfully
     # https://www.baeldung.com/cucumber-scenario-outline
     #https://www.jetbrains.com/help/idea/creating-examples-table-in-scenario-outline.html

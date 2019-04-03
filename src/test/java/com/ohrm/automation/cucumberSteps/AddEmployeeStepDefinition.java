@@ -7,9 +7,9 @@ import com.ohrm.automation.utils.CreateRandomName;
 import cucumber.api.DataTable;
 import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
-import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
+
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.openqa.selenium.WebDriver;
@@ -34,6 +34,8 @@ public class AddEmployeeStepDefinition {
     private static String firstName;
     private static String password;
     private static String confirmPass;
+    private static String middleName;
+    private static String lastName;
 
     public static String getLoginFirstName() {
         return firstName;
@@ -48,7 +50,7 @@ public class AddEmployeeStepDefinition {
     }
 
 
-    @And("^User is upload photograph$")
+    @And("^User uploads photograph$")
     public void userIsUploadPhotograph() throws Throwable {
         addEmployeeSteps.inputPhotoGraph();
     }
@@ -61,24 +63,19 @@ public class AddEmployeeStepDefinition {
     @And("^User is click on Save Button from Add Employee Page$")
     public void userIsClickOnSaveButtonFromAddEmployeePage() throws Throwable {
         addEmployeeSteps.submitInformation();
-        System.out.println("Okta Pesan: " + AddEmployeeStepDefinition.getLoginFirstName());
-        System.out.println("Okta Pesan: " + AddEmployeeStepDefinition.getLoginPassword());
-        System.out.println("Okta Pesan: " + AddEmployeeStepDefinition.getLoginConfirmationPassword());
-    }
-
-    @Then("^I'm still figure out$")
-    public void iMStillFigureOut() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
     }
 
     @When("^User input (.*) and (.*) and (.*)$")
-    public void userInputFirst_nameAndMiddle_nameAndLast_name(String firstName, String middleName, String lastName) throws Throwable {
-        addEmployeeSteps.inputNameInformation(firstName + randomName, middleName, lastName);
+    public void userInputFirst_nameAndMiddle_nameAndLast_name(String first_name, String middleName, String lastName) throws Throwable {
+        this.firstName = first_name + randomName;
+        this.middleName = middleName;
+        this.lastName = lastName;
+        addEmployeeSteps.inputNameInformation(firstName, middleName, lastName);
     }
 
-    @And("^User is create login details with valid$")
+    @And("^User is create login details with valid :$")
     public void userIsCreateLoginDetailsWithValid(DataTable table) throws Throwable {
+        System.out.println(table.raw());
         List<List<String>> data = table.raw();
         firstName = data.get(1).get(0) + randomName;
         password = data.get(1).get(1);
@@ -88,11 +85,23 @@ public class AddEmployeeStepDefinition {
     }
 
 
-    @Given("^User is in the Admin Portal - PIM - Add Employee$")
+    @Then("^User landing to Add Employee Page$")
     public void userIsInTheAdminPortalPIMAddEmployee() throws Throwable {
         homePageSteps.goToAddEmployeePage();
-        //https://stackoverflow.com/questions/36918616/how-to-pass-variable-values-between-cucumber-jvm-scenarios
-        System.out.println("User Login dengan User Name :"+ LoginStepDefinition.getUserName());
-        System.out.println("User Login dengan Password :" + LoginStepDefinition.getPswd());
+    }
+
+    @When("^User inputs (.*) and (.*) only$")
+    public void userInputsMiddle_nameAndLast_nameOnly(String middleName, String lastName) throws Throwable {
+        addEmployeeSteps.inputNamesWithoutFirstName( middleName, lastName);
+    }
+
+    @Then("^User should see employee personal details correctly$")
+    public void userShouldSeeEmployeePersonalDetails() throws Throwable {
+        addEmployeeSteps.checkEmployeePersonalDetails(firstName,middleName,lastName);
+    }
+
+    @And("^User should see login credential in the System Users page table$")
+    public void userShouldSeeLoginDetailsCorrectly() throws Throwable {
+        addEmployeeSteps.findUserNameByEmployeeName(firstName,middleName,lastName);
     }
 }

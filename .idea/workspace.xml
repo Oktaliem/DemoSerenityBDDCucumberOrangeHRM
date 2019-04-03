@@ -2,56 +2,65 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e13eadd7-a5d7-412b-8e52-eddf30d1e1b4" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelAdmin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelLogin.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelPIM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/automation/utils/Log.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/resources/features/PIM/Add Employee.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/URLs/OHRM_URL.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/ohrm/automation/urls/OHRM_URL.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/serenity.properties" beforeDir="false" afterPath="$PROJECT_DIR$/serenity.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/dashboard/DashboardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/dashboard/DashboardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/EmplyeeListPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/EmployeeListPage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/UserManagementSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/UserManagementSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/Logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/resources/features/UserManagement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/resources/features/UserManagement.feature" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/DemoSerenityBDDCucumberOrangeHRM-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/DemoSerenityBDDCucumberOrangeHRM-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Report.HTML/report.js" beforeDir="false" afterPath="$PROJECT_DIR$/target/Report.HTML/report.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/Report.Json" beforeDir="false" afterPath="$PROJECT_DIR$/target/Report.Json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/URLs/OHRM_URL.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.AddEmployeeTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.AddEmployeeTestRunner.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.LoginTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.LogoutTestRunner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.UserManagementTestRunner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.LoginTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.LoginTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.LogoutTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.LogoutTestRunner.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.UserManagementTestRunner.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/TEST-com.ohrm.automation.TestRunner.UserManagementTestRunner.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.AddEmployeeTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.AddEmployeeTestRunner.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.LoginTestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.LogoutTestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.UserManagementTestRunner.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.LoginTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.LoginTestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.LogoutTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.LogoutTestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.UserManagementTestRunner.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/com.ohrm.automation.TestRunner.UserManagementTestRunner.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/failsafe-reports/failsafe-summary.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0053378311984d5b20a13a47155c6a8e5971eaf7ee3286d996f9838ece4321f2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/0053378311984d5b20a13a47155c6a8e5971eaf7ee3286d996f9838ece4321f2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0141a6986ed21dba817da5eff658bc4b9d5875a0a57857577901b87a46c0a7f2.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/019db1afacd95a91b4cffe39f4ed95ad235519d0b778d88f75b25a31e486aa4f.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/019db1afacd95a91b4cffe39f4ed95ad235519d0b778d88f75b25a31e486aa4f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193_screenshots.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/16181b6094177f0280adeeda274f4da1cebebe2c10a0c7c964d79a04f2fe0fe2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/16181b6094177f0280adeeda274f4da1cebebe2c10a0c7c964d79a04f2fe0fe2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/01f5288b80adbd3af52a8ed68a4a616d3164f750229f80da1ef344382d948835.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/0ff3748acde45660e38bc16e4f4f8aebd0c4c590c403566ead4612e66ac42193_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/16181b6094177f0280adeeda274f4da1cebebe2c10a0c7c964d79a04f2fe0fe2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/16181b6094177f0280adeeda274f4da1cebebe2c10a0c7c964d79a04f2fe0fe2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/16181b6094177f0280adeeda274f4da1cebebe2c10a0c7c964d79a04f2fe0fe2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/16181b6094177f0280adeeda274f4da1cebebe2c10a0c7c964d79a04f2fe0fe2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/164d5694711f5cc5f123beae2242f6ed5d92fd26ec03774ed1ef27ec9a9db386.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/19348b72020c4d17a57f2c28c6d2c11e50f515fdd0ea13f05a6a781f929e6268.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/1aa1a7768bd31e7d05a7e58dd4eb379bffecaf737b0c3497be681b9df6f4caff.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434_screenshots.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d6b85739bec87444f4d65242f9709765c0761dc94886bbfc70febf61f366252.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/1e4c8f4996ca96c2008a3c4d9e7086c88a578037fd678013209f9c7198d46f08.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1d0c02fb9cb969bbd9e2f900ec6333e01b070c6fb5e26345e9374169cfab9e68.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1d6b85739bec87444f4d65242f9709765c0761dc94886bbfc70febf61f366252.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1d6b85739bec87444f4d65242f9709765c0761dc94886bbfc70febf61f366252.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/1e4c8f4996ca96c2008a3c4d9e7086c88a578037fd678013209f9c7198d46f08.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/1e4c8f4996ca96c2008a3c4d9e7086c88a578037fd678013209f9c7198d46f08.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2277dbce9f0eaf44cd66d8349846044fa049d2818e27b2d86fe85539e7ead59e.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/231b392bd6b7f091e7b36b73561c49f79b1737d81a6fe3ede7ea0a44c65dd975.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/231b392bd6b7f091e7b36b73561c49f79b1737d81a6fe3ede7ea0a44c65dd975.html" beforeDir="false" />
@@ -59,9 +68,8 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/26cb30bc26ae0739ac506a0092e5078f276c77f00c96cd449a4adffba0f8e9c7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/276202efca19a37e8b4d90187770a499ad4fd0bdb6e6f92194c54bdbb3bc119d.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/276202efca19a37e8b4d90187770a499ad4fd0bdb6e6f92194c54bdbb3bc119d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/294ca8f98687de45868963a687b12634390ee8ba6ce4adc39a7c87e4a72bdfa2.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/294ca8f98687de45868963a687b12634390ee8ba6ce4adc39a7c87e4a72bdfa2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/2ad15b298b95ba34b7844e58ba78a69dae3a3388f64e210a8a5434db86cbdd03.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/294ca8f98687de45868963a687b12634390ee8ba6ce4adc39a7c87e4a72bdfa2.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/294ca8f98687de45868963a687b12634390ee8ba6ce4adc39a7c87e4a72bdfa2.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/294ca8f98687de45868963a687b12634390ee8ba6ce4adc39a7c87e4a72bdfa2.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/294ca8f98687de45868963a687b12634390ee8ba6ce4adc39a7c87e4a72bdfa2.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2dd957f68f871aa6a6b78c7472bc0807e0a41e579a314e4468558ec270f91596.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/2dd957f68f871aa6a6b78c7472bc0807e0a41e579a314e4468558ec270f91596.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/30b50f489aed2301f40140d858ef638898ba5404ea7fed7132b8596849add60d.csv" beforeDir="false" />
@@ -70,30 +78,28 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/337588b73317314a1b5541568599fb46c7f40aa685c071efb036678993b410d9.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/34c6e009d6f6517c5a0a5f3d410ed056c6879e3e744e3353e931970b3049caa1.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/34c6e009d6f6517c5a0a5f3d410ed056c6879e3e744e3353e931970b3049caa1.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/370a798d1a585d5d9db553ed7bee73eb5e726f1b35ff99230b4ac1f9f8ba88ca.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/382f38cef783d758924515181e68629f5fc4d2d9240491123744763ef4055a2a.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/382f38cef783d758924515181e68629f5fc4d2d9240491123744763ef4055a2a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3a2b495327ac7f7d5ae2b2a1bee01a1a221dc544577d16f428c17feb985de25f.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/3b72007228a17f1644a1a3f0402ef24137f3d0c172f2263df4f289e81641ed8d.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/3b72007228a17f1644a1a3f0402ef24137f3d0c172f2263df4f289e81641ed8d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/3f7bd2961583171020fed970fb390917c2cc0b6abf18d65103d669d7fea66a35.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/404408ec536b31c20640450343288fb240ed96d0eae19b9d9ef53195cd32c815.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/404408ec536b31c20640450343288fb240ed96d0eae19b9d9ef53195cd32c815.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/4b58a614c909c4a6a981ac7d9f06661e4d60e1f733fd2287f0b9f842445133ba.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/4b58a614c909c4a6a981ac7d9f06661e4d60e1f733fd2287f0b9f842445133ba.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4be925ed5e2e48e97e68e909f00c831cf628c11fe0d97a44bd8ae1f97712e778.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4be925ed5e2e48e97e68e909f00c831cf628c11fe0d97a44bd8ae1f97712e778.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4be925ed5e2e48e97e68e909f00c831cf628c11fe0d97a44bd8ae1f97712e778.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4be925ed5e2e48e97e68e909f00c831cf628c11fe0d97a44bd8ae1f97712e778.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4be925ed5e2e48e97e68e909f00c831cf628c11fe0d97a44bd8ae1f97712e778.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4be925ed5e2e48e97e68e909f00c831cf628c11fe0d97a44bd8ae1f97712e778.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/4c8e9958fdd6fecd1ade1c37ec84a0caaa6574d660711289184a90855a34fab4.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/4c8e9958fdd6fecd1ade1c37ec84a0caaa6574d660711289184a90855a34fab4.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/4c932b427d76806abd62411a800daae28372fa6f39113b698fbfbdb69b5ec348.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/4c932b427d76806abd62411a800daae28372fa6f39113b698fbfbdb69b5ec348.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4e45a36fa6e31340238db42a52c03d66435c6a8ce87c8b29cb810bf312ee8969.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/4e45a36fa6e31340238db42a52c03d66435c6a8ce87c8b29cb810bf312ee8969.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4e45a36fa6e31340238db42a52c03d66435c6a8ce87c8b29cb810bf312ee8969.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4e45a36fa6e31340238db42a52c03d66435c6a8ce87c8b29cb810bf312ee8969.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/4e45a36fa6e31340238db42a52c03d66435c6a8ce87c8b29cb810bf312ee8969.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/4e45a36fa6e31340238db42a52c03d66435c6a8ce87c8b29cb810bf312ee8969.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/500449c9e1902fc4ec0c4f5f51af06e0d83b32778c5671fff8d2d727655828d2.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/500449c9e1902fc4ec0c4f5f51af06e0d83b32778c5671fff8d2d727655828d2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/552099bafd51c023fa67c96768853db25a6db8205cb0decf068720826f291b38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/576946480b52ad056d6f5bddf874399c83582ecf90963cc074a14c70580e7d9f.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5b4cb52dd12ed15cac0e9959b4e4f572edf59121c25a130fd220a143a036617d.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b7c4ac7b7fe146157dbd7bcded262d302677b5734c011426713e2e99f721fd7.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/5b7c4ac7b7fe146157dbd7bcded262d302677b5734c011426713e2e99f721fd7.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/5b7c4ac7b7fe146157dbd7bcded262d302677b5734c011426713e2e99f721fd7.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5cfb339db280f9c38dbc313ace61da10b6044a6ea7eadb4cb86f7af9bf0d5501.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/5cfb339db280f9c38dbc313ace61da10b6044a6ea7eadb4cb86f7af9bf0d5501.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/621da2499390efc59b3733d558afdbf672b0e95974a3a086f7304305d8078d2e.csv" beforeDir="false" />
@@ -101,34 +107,39 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/622a0296d2773b67d49e5537d09f9329b60a0c63defe830122cb11dadeac20ec.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/622a0296d2773b67d49e5537d09f9329b60a0c63defe830122cb11dadeac20ec.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/6495015b695f3ba2142333cf1e9f9eeb95657d6076cd8854ed288b2536a1d8af.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6758bfd9592c1a7ba99034d7c981d2ca4dd412dabf437883799d2db963d94061.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6758bfd9592c1a7ba99034d7c981d2ca4dd412dabf437883799d2db963d94061.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/68c3b9dae6e0f2f45692de1d59db38068b9be3a49740d31fac556aba11b43e40.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/68c3b9dae6e0f2f45692de1d59db38068b9be3a49740d31fac556aba11b43e40.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/669865032805a19998709b6b01930d93a8cefdf839a1c5755467f0768e569492.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6758bfd9592c1a7ba99034d7c981d2ca4dd412dabf437883799d2db963d94061.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6758bfd9592c1a7ba99034d7c981d2ca4dd412dabf437883799d2db963d94061.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6758bfd9592c1a7ba99034d7c981d2ca4dd412dabf437883799d2db963d94061.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6758bfd9592c1a7ba99034d7c981d2ca4dd412dabf437883799d2db963d94061.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/68c3b9dae6e0f2f45692de1d59db38068b9be3a49740d31fac556aba11b43e40.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/68c3b9dae6e0f2f45692de1d59db38068b9be3a49740d31fac556aba11b43e40.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/68c3b9dae6e0f2f45692de1d59db38068b9be3a49740d31fac556aba11b43e40.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/68c3b9dae6e0f2f45692de1d59db38068b9be3a49740d31fac556aba11b43e40.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/693f568c541d4342b35216c50598f2547eeeda5245336c294fe4a8151e5150d0.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/697d4f50ee62f1c2b7f31205a4e5a44d12972566b39236d76f2aa85a5224bc27.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/697d4f50ee62f1c2b7f31205a4e5a44d12972566b39236d76f2aa85a5224bc27.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ab0a091338fc93eb0e013740d38883cbfa7c706bd307546398179e5f6e9dd59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4_screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/6bbb523a31c08826f321ee07f51f8782ec303833122dfcb84a7e7b131177ea3f.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/6bbb523a31c08826f321ee07f51f8782ec303833122dfcb84a7e7b131177ea3f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/710cecad698b07d495cd7f2d9bdc5e87cf993d3f742dc4c428c332656f3602c9.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/710cecad698b07d495cd7f2d9bdc5e87cf993d3f742dc4c428c332656f3602c9.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/710cecad698b07d495cd7f2d9bdc5e87cf993d3f742dc4c428c332656f3602c9.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/71937e192682ad7c610f76b362c1af88aa6f99e9c8b81b434e66936fa9027890.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/724dabe44d8ded39413a6aeb4a195a79b87366645c82f7f56c34824be668ac8c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/73e40f8af32ce7942d12e4d355e47483d6cf730651bba8d430e692208a19acf9.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/75f1fd04fd4c939597434256dabf3e658beca90d511ed031e0f6fd1ca825df2d.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/75f1fd04fd4c939597434256dabf3e658beca90d511ed031e0f6fd1ca825df2d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/79254f0dde40e2d7e417703ce119cf1f33ad3a25ce66ad08e47e509d1fdb17b0.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/79254f0dde40e2d7e417703ce119cf1f33ad3a25ce66ad08e47e509d1fdb17b0.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/78888a1fac60454289d55fb18475e448733c7f0ac588bb82549dc14113544151.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/79254f0dde40e2d7e417703ce119cf1f33ad3a25ce66ad08e47e509d1fdb17b0.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/79254f0dde40e2d7e417703ce119cf1f33ad3a25ce66ad08e47e509d1fdb17b0.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/79254f0dde40e2d7e417703ce119cf1f33ad3a25ce66ad08e47e509d1fdb17b0.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/79254f0dde40e2d7e417703ce119cf1f33ad3a25ce66ad08e47e509d1fdb17b0.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/799904b3d89a7773527cbe67a1c0d9ced2fd0d0966e36cff7489fd15134c8f96.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/79aa5de36e5b42355bfc0830f002b5a3a9ec402cbf45f390d71f6b0a066c023d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7a7e99263e2ab7c1039a28e03553fa30b718e9c20269ff12efd04a5892c0ed21.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7a7e99263e2ab7c1039a28e03553fa30b718e9c20269ff12efd04a5892c0ed21.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7a7e99263e2ab7c1039a28e03553fa30b718e9c20269ff12efd04a5892c0ed21.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7a7e99263e2ab7c1039a28e03553fa30b718e9c20269ff12efd04a5892c0ed21.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7a7e99263e2ab7c1039a28e03553fa30b718e9c20269ff12efd04a5892c0ed21.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7a7e99263e2ab7c1039a28e03553fa30b718e9c20269ff12efd04a5892c0ed21.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7b31aeec123a7c3a46d14c5a2c64de18458cd2a4163766d06c9ede7a2b45367f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b8f90e91bf2a977b6d716605654ed66a5987f6f3ebdb3ac1e391c030b944f69.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b8f90e91bf2a977b6d716605654ed66a5987f6f3ebdb3ac1e391c030b944f69.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b8f90e91bf2a977b6d716605654ed66a5987f6f3ebdb3ac1e391c030b944f69.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7b8f90e91bf2a977b6d716605654ed66a5987f6f3ebdb3ac1e391c030b944f69.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7b8f90e91bf2a977b6d716605654ed66a5987f6f3ebdb3ac1e391c030b944f69.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7b8f90e91bf2a977b6d716605654ed66a5987f6f3ebdb3ac1e391c030b944f69.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7c4a82e71fc0c52b346b3070b75a14e50338e64971a15e43c2966915598eb6c9.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7c4a82e71fc0c52b346b3070b75a14e50338e64971a15e43c2966915598eb6c9.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/7d55084aec0717130491d35a346b9b58ed4dbd4baa1efcadfbbc4b066d1acbca.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7eb218a85e9e4b2c4bbe70394854c4930a4ab5f9237e1bcf7755df94262b16e7.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/7eb218a85e9e4b2c4bbe70394854c4930a4ab5f9237e1bcf7755df94262b16e7.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/811d36a7ff1902597f8558f1ed7a04f6451c0e4a01b467a2f537ae5a2ab3b1ee.html" beforeDir="false" />
@@ -136,45 +147,46 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/834d90a04df34d68d236a106a5d5c22d2e727cd0e675f3165886b3aaf5206108.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/839269c13e519adb476a7f1c253aa39c970630a05b0bfeca59795062fbfb83c7.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/839269c13e519adb476a7f1c253aa39c970630a05b0bfeca59795062fbfb83c7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/854e69601f2e45a19bd4757efa2c0468014946b80b78b5d197870af2f0547c4a_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/86eb5362d9379d3586fbac8811b46fb234ec063a5a1825fc846b4be8efa69c23.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/88baca9cca2b094fc4cd20749e1c60680f311cca38deded9d12f01f8da36b3db.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/88c18e23cd393ff93434bd9649f59daebddd1d1db33c0f43f2c8b3671563523d.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/88c18e23cd393ff93434bd9649f59daebddd1d1db33c0f43f2c8b3671563523d.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/89585632ab5d61c1e263c061b3c1c4bdc65a696a674a0c2dd4af484136f0313c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8995270033a374b16e4b06f75e282c23b37331ab5ce839ade3bdbc2cd1a6825a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8995270033a374b16e4b06f75e282c23b37331ab5ce839ade3bdbc2cd1a6825a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/8995270033a374b16e4b06f75e282c23b37331ab5ce839ade3bdbc2cd1a6825a.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/8be7259749ec8c4eb32a6df571689abeb357da967a2ff0473035c9da461aa15a.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/8be7259749ec8c4eb32a6df571689abeb357da967a2ff0473035c9da461aa15a.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/8f5daca99ff0e85b3183d4d933d0ed5c6ab4e33987efc144c8db9efa952af445.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/8d796e3c3681a28bdf695f47f2aeb8bd7879272fd3325ee0c86f24d978cdf50d.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/910892a3de32a5f741a50965fc4e24a9bf7afb396f7ad58432339b3b5410e6a4.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/910892a3de32a5f741a50965fc4e24a9bf7afb396f7ad58432339b3b5410e6a4.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/9240789133142aaf8cf0ef95a77c821f8e4312933141771bdf2b567744acbb05.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/959fe638536d63dda1fc44a56baf88db3722ad9c9bb1995282ff0c2e5734cf05.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/959fe638536d63dda1fc44a56baf88db3722ad9c9bb1995282ff0c2e5734cf05.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/95c834f69e588364300ec355395b97d2fd9381835797757030390bd575d2a21b.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/95c834f69e588364300ec355395b97d2fd9381835797757030390bd575d2a21b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/95c834f69e588364300ec355395b97d2fd9381835797757030390bd575d2a21b.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/95ded9d36aaf70a0b4d2231c68b38ab5e84aaee4dbac2d14c4ede1c97984190c.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/95ded9d36aaf70a0b4d2231c68b38ab5e84aaee4dbac2d14c4ede1c97984190c.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9ada44a741d117adcd49db106bf5cd2ff55c7748b94311c7dee7fd7d066f0e34_screenshots.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/9c04a85c3b5dc779517c6a01207dea6ad607d1ee4e7bf0004c1ca4096b538daa.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/9c04a85c3b5dc779517c6a01207dea6ad607d1ee4e7bf0004c1ca4096b538daa.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/9ddb85287cea3e3d1bd1c3aa7bccba85ec33ac33c3b5473e43859aa93da2d6e7.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/9ddb85287cea3e3d1bd1c3aa7bccba85ec33ac33c3b5473e43859aa93da2d6e7.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f_screenshots.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a098e796cb9590836a609bbec5d36cc1b3505d182341c7a3953c14759983b079.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a098e796cb9590836a609bbec5d36cc1b3505d182341c7a3953c14759983b079.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f_screenshots.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9e03c0b32a70795df5fe1cdfbe0fa879fc6a10d4016e703da17de90dfb8f5b94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/9ec28b6af953ddae8401ab9961327b256b05d8e9a720e12486dc8df25d6798ea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-1b92ba63a89615e35fcaf0dd9190c4346fefe584d98f99b0bffc97fe6626f434.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-9dde0f8b3806f92efa8b52d8dcac9b0b4ef04bccff0500d3df975afd9da5246f.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/SERENITY-JUNIT-eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a098e796cb9590836a609bbec5d36cc1b3505d182341c7a3953c14759983b079.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a098e796cb9590836a609bbec5d36cc1b3505d182341c7a3953c14759983b079.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/a098e796cb9590836a609bbec5d36cc1b3505d182341c7a3953c14759983b079.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/a098e796cb9590836a609bbec5d36cc1b3505d182341c7a3953c14759983b079.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a1609e1133eed069b9d1855390952c8f4a874e9073e178a584a95ff2ac2a1e3b.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a1609e1133eed069b9d1855390952c8f4a874e9073e178a584a95ff2ac2a1e3b.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a16b61abf3c8d3dd3fedda909b6f6121e2035e003ba46e797562665df7c86c06.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/a2f566df0042f545d2f950a3a906d4f4bf424310c36827b3cebae19e982a8f6a.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a4dacad8bb22789c313743d61d8c2e216c8a18787febc33db815f8758a65a313.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a4dacad8bb22789c313743d61d8c2e216c8a18787febc33db815f8758a65a313.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/a6cf8e0bfb0bfd49fef0ddbe24d5717affbe4c0809a7d4d0be669627888df52b.csv" beforeDir="false" />
@@ -184,95 +196,103 @@
       <change beforePath="$PROJECT_DIR$/target/site/serenity/ab1ada5c9996a0f7fbc4be131e44c691376476774ad9a7b0701011bc4e36665f.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/ab1ada5c9996a0f7fbc4be131e44c691376476774ad9a7b0701011bc4e36665f.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/af0ace48edeba2c68b3aa72307b492cb851cabd686750c5b33c40bc1b677a302.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/b933f6d654a7124c204c7a96a6fd6879c1496a5ca6eccfb87526583aaaba4c28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/bde4fca42ca8baa0fe2eac76a241c84327dfe4ca903a1daa7cae83a1035d4745.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/browser-chrome.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/build-info.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/build-info.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c05fe2e34f96b4d78520c10bff56cd510cb7fe04128ec527232533dff4020de6.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c05fe2e34f96b4d78520c10bff56cd510cb7fe04128ec527232533dff4020de6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2ebae29d636c3362c14ccda436f9aa7ebe369ee17bc6d402c05ad6146be8e3e.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2ebae29d636c3362c14ccda436f9aa7ebe369ee17bc6d402c05ad6146be8e3e.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2ebae29d636c3362c14ccda436f9aa7ebe369ee17bc6d402c05ad6146be8e3e.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c2ebae29d636c3362c14ccda436f9aa7ebe369ee17bc6d402c05ad6146be8e3e.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c2ebae29d636c3362c14ccda436f9aa7ebe369ee17bc6d402c05ad6146be8e3e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c2ebae29d636c3362c14ccda436f9aa7ebe369ee17bc6d402c05ad6146be8e3e.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c4733966738b3999336bc9d3c5ac3757a70fb8201f3288c715a4e7b5b2dc3982.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8009bf75c9510b3a80218f56094feac5a8cc2fa2e435649f4fbdf79c5861940.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c8009bf75c9510b3a80218f56094feac5a8cc2fa2e435649f4fbdf79c5861940.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c8009bf75c9510b3a80218f56094feac5a8cc2fa2e435649f4fbdf79c5861940.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c8bf12486589e20292976cacb6b80d1c938e0a7ff420f52e7ae06db9827f5fba.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c8bf12486589e20292976cacb6b80d1c938e0a7ff420f52e7ae06db9827f5fba.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9a060644e436380b7946eac552049a6a94730c13163340608575f7cc291a91d.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/c9a060644e436380b7946eac552049a6a94730c13163340608575f7cc291a91d.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/c9a060644e436380b7946eac552049a6a94730c13163340608575f7cc291a91d.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/c9db5e73e9851720bdfd9db94cec0d372ba9f7d5b2be27fe0792549825adaca2.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/capabilities.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/capabilities.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/ce94c37daa8a7d559fd43faccd88f0615a3fbdf3c86de8c418ae41b4ba4788bf.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/cfbbb53f6d7dfd3cee3c754d410fea7b4e4014a15deb81890494495f03aae30a.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/cfbbb53f6d7dfd3cee3c754d410fea7b4e4014a15deb81890494495f03aae30a.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/cfbbb53f6d7dfd3cee3c754d410fea7b4e4014a15deb81890494495f03aae30a.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/cfbbb53f6d7dfd3cee3c754d410fea7b4e4014a15deb81890494495f03aae30a.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/cfbbb53f6d7dfd3cee3c754d410fea7b4e4014a15deb81890494495f03aae30a.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/cfbbb53f6d7dfd3cee3c754d410fea7b4e4014a15deb81890494495f03aae30a.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d00c6b0486b6aeb1fa3b9cecd097e30f790a07f59b0ac4e5decb59ef47d770f8.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d00c6b0486b6aeb1fa3b9cecd097e30f790a07f59b0ac4e5decb59ef47d770f8.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d01bb8c964c30d9dc1675d29ce60c4bf7e1d0e58dbf9931f328f5e037d88274b.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d01bb8c964c30d9dc1675d29ce60c4bf7e1d0e58dbf9931f328f5e037d88274b.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d01bb8c964c30d9dc1675d29ce60c4bf7e1d0e58dbf9931f328f5e037d88274b.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d01bb8c964c30d9dc1675d29ce60c4bf7e1d0e58dbf9931f328f5e037d88274b.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d01bb8c964c30d9dc1675d29ce60c4bf7e1d0e58dbf9931f328f5e037d88274b.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d01bb8c964c30d9dc1675d29ce60c4bf7e1d0e58dbf9931f328f5e037d88274b.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d055d439b897e618adc50807887b11ade1f6991a7b5f8ed070c9095842043f95.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d055d439b897e618adc50807887b11ade1f6991a7b5f8ed070c9095842043f95.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d1e8d6ed486256130ed900f1e4c8e645864a72e2e3ffed303877042f2ccfb5aa.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d1e8d6ed486256130ed900f1e4c8e645864a72e2e3ffed303877042f2ccfb5aa.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d2d97bbd437f7f6dbec36b9770c66880c0fed4e496df8b578f4b925b19742cc6.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d2d97bbd437f7f6dbec36b9770c66880c0fed4e496df8b578f4b925b19742cc6.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d477f16ae77334ef5ec9f8cd3532cd1a5155279896d4f1bf2bf3dd7e5a660a63.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d477f16ae77334ef5ec9f8cd3532cd1a5155279896d4f1bf2bf3dd7e5a660a63.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d2d97bbd437f7f6dbec36b9770c66880c0fed4e496df8b578f4b925b19742cc6.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d2d97bbd437f7f6dbec36b9770c66880c0fed4e496df8b578f4b925b19742cc6.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d2d97bbd437f7f6dbec36b9770c66880c0fed4e496df8b578f4b925b19742cc6.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d2d97bbd437f7f6dbec36b9770c66880c0fed4e496df8b578f4b925b19742cc6.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d477f16ae77334ef5ec9f8cd3532cd1a5155279896d4f1bf2bf3dd7e5a660a63.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d477f16ae77334ef5ec9f8cd3532cd1a5155279896d4f1bf2bf3dd7e5a660a63.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d477f16ae77334ef5ec9f8cd3532cd1a5155279896d4f1bf2bf3dd7e5a660a63.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d477f16ae77334ef5ec9f8cd3532cd1a5155279896d4f1bf2bf3dd7e5a660a63.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d48e64763ea41dd825a7c248e4287cead6a45462654740fa2fbbb8edd0aa8aee.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/d48e64763ea41dd825a7c248e4287cead6a45462654740fa2fbbb8edd0aa8aee.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/d7fee21c1bb9bf3e995c17eafffc309f1ef6c967a2d282e711563896c15f2f80.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/d7fee21c1bb9bf3e995c17eafffc309f1ef6c967a2d282e711563896c15f2f80.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/d7fee21c1bb9bf3e995c17eafffc309f1ef6c967a2d282e711563896c15f2f80.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/da0d6f5cdc79ce2df30b2882b7f151fbc0cd3887df94b5b87a0a17a5b0f0c4eb.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/da0d6f5cdc79ce2df30b2882b7f151fbc0cd3887df94b5b87a0a17a5b0f0c4eb.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/da706e2962f39c4a932d0108cbfba6bc2b54fe2e2d4b5e4b1487e2b5d5c4180f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/db50e4129ccbff608ed8dae3a5f2298809ef4b171f367d93c37e219a7528b64e.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/dfe78cbce117b3a33c240601340d90a880bdb4b1a7a5b2dd1b3b8a61b1dfdeeb.csv" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/db50e4129ccbff608ed8dae3a5f2298809ef4b171f367d93c37e219a7528b64e.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/db50e4129ccbff608ed8dae3a5f2298809ef4b171f367d93c37e219a7528b64e.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/dfe78cbce117b3a33c240601340d90a880bdb4b1a7a5b2dd1b3b8a61b1dfdeeb.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/dfe78cbce117b3a33c240601340d90a880bdb4b1a7a5b2dd1b3b8a61b1dfdeeb.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e09dac5d5649c556ba155a4ee4bb7c871cc272c12e8b8dd6bcb60fa735e281b9.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e09dac5d5649c556ba155a4ee4bb7c871cc272c12e8b8dd6bcb60fa735e281b9.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e1960ab033526ae5369a14a67bcc90191703a74fe1adcf8aa66aa3f9eba4947f.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e1960ab033526ae5369a14a67bcc90191703a74fe1adcf8aa66aa3f9eba4947f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/e3af0552b45f8c6bb9224015f280c71f8b1fc83436417cfd97d7fbaa0a02cdfb.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e3e63984953406f26af418c5ae89a7c3e0a1b29814163481ae7f322a2cc73160.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e3e63984953406f26af418c5ae89a7c3e0a1b29814163481ae7f322a2cc73160.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e663f84963ecf0db3bcab8df7ae77280d2b0e41106ca705f3d54cac48bd1e1ff.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e6fce13a635a8e42aed626bc7a8a6c31248a2858f76e056e2da1359eeea4937f.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/e6fce13a635a8e42aed626bc7a8a6c31248a2858f76e056e2da1359eeea4937f.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.json" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe_screenshots.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe_screenshots.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/eb491e980fc6e0b551bac3f137a84fe80d13a67e91c6c48c32be0ef2825a11fe_screenshots.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.csv" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/efa777031bd50d479127a8e52290b108905b9b03e3092b335e44a60138328864.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/efd25b84ce0a07e01616ed07a6b55fdf5149eb12dbfecffb46b26d79658c30e3.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/efd25b84ce0a07e01616ed07a6b55fdf5149eb12dbfecffb46b26d79658c30e3.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/f27f353b5dae223e2b88dd903aef6cd8027287fd554033532ff6329d8ccf6b59.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/f46fa4d850d28daa244aeffe32b64382eeb638ae571f4eb5c601a64d9633d75c.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/f46fa4d850d28daa244aeffe32b64382eeb638ae571f4eb5c601a64d9633d75c.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f4a62ddbf6b8cf17a83f39a96d9b94da96542b85a59f1a991e0ea5a0e953a599.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/f4a8a17a578ccb658086f5f8e49c081f574cad6796d0f6ed24abfae7a9873a60.csv" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/f4a8a17a578ccb658086f5f8e49c081f574cad6796d0f6ed24abfae7a9873a60.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/f893b37e4a76f661beb389cb4397c29f0829acb6a1b4194f94e998a0ba617acb.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_0141a6986ed21dba817da5eff658bc4b9d5875a0a57857577901b87a46c0a7f2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/f9894f375ebc907046ef1ec273068189a06f1696355d8e1182f63a3779e00615.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/results.csv" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/results.csv" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_164d5694711f5cc5f123beae2242f6ed5d92fd26ec03774ed1ef27ec9a9db386.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_19348b72020c4d17a57f2c28c6d2c11e50f515fdd0ea13f05a6a781f929e6268.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_1aa1a7768bd31e7d05a7e58dd4eb379bffecaf737b0c3497be681b9df6f4caff.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2277dbce9f0eaf44cd66d8349846044fa049d2818e27b2d86fe85539e7ead59e.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_2ad15b298b95ba34b7844e58ba78a69dae3a3388f64e210a8a5434db86cbdd03.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_3a2b495327ac7f7d5ae2b2a1bee01a1a221dc544577d16f428c17feb985de25f.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_3f7bd2961583171020fed970fb390917c2cc0b6abf18d65103d669d7fea66a35.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_552099bafd51c023fa67c96768853db25a6db8205cb0decf068720826f291b38.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_724dabe44d8ded39413a6aeb4a195a79b87366645c82f7f56c34824be668ac8c.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_370a798d1a585d5d9db553ed7bee73eb5e726f1b35ff99230b4ac1f9f8ba88ca.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_669865032805a19998709b6b01930d93a8cefdf839a1c5755467f0768e569492.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_693f568c541d4342b35216c50598f2547eeeda5245336c294fe4a8151e5150d0.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_6ab0a091338fc93eb0e013740d38883cbfa7c706bd307546398179e5f6e9dd59.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_73e40f8af32ce7942d12e4d355e47483d6cf730651bba8d430e692208a19acf9.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_78888a1fac60454289d55fb18475e448733c7f0ac588bb82549dc14113544151.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_799904b3d89a7773527cbe67a1c0d9ced2fd0d0966e36cff7489fd15134c8f96.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_79aa5de36e5b42355bfc0830f002b5a3a9ec402cbf45f390d71f6b0a066c023d.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_89585632ab5d61c1e263c061b3c1c4bdc65a696a674a0c2dd4af484136f0313c.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8f5daca99ff0e85b3183d4d933d0ed5c6ab4e33987efc144c8db9efa952af445.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_a2f566df0042f545d2f950a3a906d4f4bf424310c36827b3cebae19e982a8f6a.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_b933f6d654a7124c204c7a96a6fd6879c1496a5ca6eccfb87526583aaaba4c28.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_e3af0552b45f8c6bb9224015f280c71f8b1fc83436417cfd97d7fbaa0a02cdfb.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f27f353b5dae223e2b88dd903aef6cd8027287fd554033532ff6329d8ccf6b59.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_86eb5362d9379d3586fbac8811b46fb234ec063a5a1825fc846b4be8efa69c23.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_8d796e3c3681a28bdf695f47f2aeb8bd7879272fd3325ee0c86f24d978cdf50d.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9e03c0b32a70795df5fe1cdfbe0fa879fc6a10d4016e703da17de90dfb8f5b94.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_9ec28b6af953ddae8401ab9961327b256b05d8e9a720e12486dc8df25d6798ea.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f4a62ddbf6b8cf17a83f39a96d9b94da96542b85a59f1a991e0ea5a0e953a599.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/scaled_f9894f375ebc907046ef1ec273068189a06f1696355d8e1182f63a3779e00615.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/site/serenity/summary.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/site/serenity/summary.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/LoginStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/LoginStepDefinition.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/admin/UserMgn_UserPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/admin/UserMgn_UserPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/dashboard/DashboardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/dashboard/DashboardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/login/LoginPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/login/LoginPage.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/pim/AddEmployeePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/pim/AddEmployeePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/pages/pim/EmplyeeListPage.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/serenitySteps/AddEmployeeSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/serenitySteps/AddEmployeeSteps.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/serenitySteps/LoginSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/serenitySteps/LoginSteps.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/serenitySteps/UserManagementSteps.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/ohrm/automation/serenitySteps/UserManagementSteps.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/AddEmployee.feature" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Login.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Login.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/Logout.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/Logout.feature" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/features/UserManagement.feature" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/features/UserManagement.feature" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -289,117 +309,50 @@
     </SUITE>
   </component>
   <component name="FileEditorManager">
-    <splitter split-orientation="horizontal" split-proportion="0.44253394">
+    <splitter split-orientation="horizontal" split-proportion="0.26220018">
       <split-first>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="UserManagement.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserManagement.feature">
+          <file leaf-file-name="LoginSteps.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="454">
-                  <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="65" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="DatabaseHelper.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/helper/DatabaseHelper.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="30">
-                  <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="TestDataModelAdmin.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelAdmin.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="870">
-                  <caret line="58" column="20" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="20" />
+                <state relative-caret-position="135">
+                  <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
                   <folding>
-                    <element signature="e#1509#1510#0" expanded="true" />
-                    <element signature="e#1540#1541#0" expanded="true" />
-                    <element signature="e#1773#1774#0" expanded="true" />
-                    <element signature="e#1803#1804#0" expanded="true" />
-                    <element signature="e#1968#1969#0" expanded="true" />
-                    <element signature="e#1998#1999#0" expanded="true" />
-                    <element signature="e#1652#1653#0" expanded="true" />
-                    <element signature="e#1679#1680#0" expanded="true" />
-                    <element signature="e#1817#1818#0" expanded="true" />
-                    <element signature="e#1844#1845#0" expanded="true" />
-                    <element signature="e#1987#1988#0" expanded="true" />
-                    <element signature="e#2019#2020#0" expanded="true" />
-                    <element signature="e#2181#2182#0" expanded="true" />
-                    <element signature="e#2212#2213#0" expanded="true" />
-                    <element signature="e#2333#2334#0" expanded="true" />
-                    <element signature="e#2362#2363#0" expanded="true" />
-                    <element signature="e#2476#2477#0" expanded="true" />
-                    <element signature="e#2506#2507#0" expanded="true" />
-                    <element signature="e#2622#2623#0" expanded="true" />
-                    <element signature="e#2650#2651#0" expanded="true" />
-                    <element signature="e#2758#2759#0" expanded="true" />
-                    <element signature="e#2786#2787#0" expanded="true" />
-                    <element signature="e#2897#2898#0" expanded="true" />
-                    <element signature="e#2928#2929#0" expanded="true" />
-                    <element signature="e#3047#3048#0" expanded="true" />
-                    <element signature="e#3074#3075#0" expanded="true" />
-                    <element signature="e#3181#3182#0" expanded="true" />
-                    <element signature="e#3212#3213#0" expanded="true" />
-                    <element signature="e#3332#3333#0" expanded="true" />
-                    <element signature="e#3360#3361#0" expanded="true" />
-                    <element signature="e#3472#3473#0" expanded="true" />
-                    <element signature="e#3504#3505#0" expanded="true" />
-                    <element signature="e#3626#3627#0" expanded="true" />
-                    <element signature="e#3652#3653#0" expanded="true" />
-                    <element signature="e#3755#3756#0" expanded="true" />
-                    <element signature="e#3786#3787#0" expanded="true" />
-                    <element signature="e#3908#3909#0" expanded="true" />
-                    <element signature="e#3938#3939#0" expanded="true" />
-                    <element signature="e#4056#4057#0" expanded="true" />
-                    <element signature="e#4086#4087#0" expanded="true" />
-                    <element signature="e#4204#4205#0" expanded="true" />
-                    <element signature="e#4234#4235#0" expanded="true" />
-                    <element signature="e#4351#4352#0" expanded="true" />
-                    <element signature="e#4380#4381#0" expanded="true" />
-                    <element signature="e#4491#4492#0" expanded="true" />
-                    <element signature="e#4518#4519#0" expanded="true" />
-                    <element signature="e#4622#4623#0" expanded="true" />
-                    <element signature="e#4650#4651#0" expanded="true" />
-                    <element signature="e#4763#4764#0" expanded="true" />
-                    <element signature="e#4796#4797#0" expanded="true" />
-                    <element signature="e#4932#4933#0" expanded="true" />
-                    <element signature="e#4968#4969#0" expanded="true" />
-                    <element signature="e#5113#5114#0" expanded="true" />
-                    <element signature="e#5146#5147#0" expanded="true" />
-                    <element signature="e#5277#5278#0" expanded="true" />
-                    <element signature="e#5308#5309#0" expanded="true" />
-                    <element signature="e#5433#5434#0" expanded="true" />
-                    <element signature="e#5466#5467#0" expanded="true" />
-                    <element signature="e#5592#5593#0" expanded="true" />
-                    <element signature="e#5618#5619#0" expanded="true" />
-                    <element signature="e#5717#5718#0" expanded="true" />
-                    <element signature="e#5744#5745#0" expanded="true" />
-                    <element signature="e#5845#5846#0" expanded="true" />
-                    <element signature="e#5870#5871#0" expanded="true" />
-                    <element signature="e#5967#5968#0" expanded="true" />
-                    <element signature="e#5996#5997#0" expanded="true" />
-                    <element signature="e#6114#6115#0" expanded="true" />
-                    <element signature="e#6148#6149#0" expanded="true" />
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#696#697#0" expanded="true" />
+                    <element signature="e#728#729#0" expanded="true" />
+                    <element signature="e#991#992#0" expanded="true" />
+                    <element signature="e#1030#1031#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="LoginStepDefinition.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefinition.java">
+          <file leaf-file-name="OHRM_URL.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/urls/OHRM_URL.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+                <state relative-caret-position="90">
+                  <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserManagementStepDefinition.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="195">
+                  <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="64" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddEmployeeStepDefinition.java" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="185">
+                  <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
                   <folding>
                     <element signature="imports" expanded="true" />
-                    <element signature="e#640#641#0" expanded="true" />
-                    <element signature="e#671#672#0" expanded="true" />
-                    <element signature="e#707#708#0" expanded="true" />
-                    <element signature="e#734#735#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
@@ -408,8 +361,22 @@
           <file leaf-file-name="AddEmployeePage.java" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="135">
-                  <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+                <state relative-caret-position="-310">
+                  <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#2106#2107#0" expanded="true" />
+                    <element signature="e#2159#2160#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddEmployeeSteps.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="141">
+                  <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -417,35 +384,27 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="HomePageSteps.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/HomePageSteps.java">
+          <file leaf-file-name="LoginPage.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+                <state relative-caret-position="90">
+                  <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
                   <folding>
                     <element signature="imports" expanded="true" />
+                    <element signature="e#1073#1074#0" expanded="true" />
+                    <element signature="e#1126#1127#0" expanded="true" />
+                    <element signature="e#1170#1171#0" expanded="true" />
+                    <element signature="e#1223#1224#0" expanded="true" />
                   </folding>
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="UserManagementStepDefinition.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java">
+          <file leaf-file-name="LoginStepDefinition.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefinition.java">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="99">
-                  <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                  </folding>
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AddEmployeeTestRunner.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="75">
-                  <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
+                <state relative-caret-position="330">
+                  <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -457,38 +416,11 @@
       </split-first>
       <split-second>
         <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-          <file leaf-file-name="AddEmployee.feature" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature">
+          <file leaf-file-name="Login.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="195">
-                  <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/README.md">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="225">
-                  <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="75" />
-                </state>
-              </provider>
-            </entry>
-          </file>
-          <file leaf-file-name="AddEmployeeStepDefinition.java" pinned="false" current-in-tab="true">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java">
-              <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="217">
-                  <caret line="93" column="113" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
-                  <folding>
-                    <element signature="imports" expanded="true" />
-                    <element signature="e#1206#1207#0" expanded="true" />
-                    <element signature="e#1238#1239#0" expanded="true" />
-                    <element signature="e#1262#1263#0" expanded="true" />
-                    <element signature="e#1294#1295#0" expanded="true" />
-                    <element signature="e#1342#1343#0" expanded="true" />
-                    <element signature="e#1374#1375#0" expanded="true" />
-                  </folding>
+                <state relative-caret-position="15">
+                  <caret line="1" selection-start-line="1" selection-end-line="1" />
                 </state>
               </provider>
             </entry>
@@ -497,16 +429,25 @@
             <entry file="file://$PROJECT_DIR$/src/test/resources/features/Logout.feature">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="180">
-                  <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="47" />
+                  <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
                 </state>
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="AddEmployeeSteps.java" pinned="false" current-in-tab="false">
-            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java">
+          <file leaf-file-name="Add Employee.feature" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/PIM/Add Employee.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="262">
-                  <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
+                <state relative-caret-position="-63">
+                  <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="Log.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/utils/Log.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="105">
+                  <caret line="8" column="20" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="20" />
                   <folding>
                     <element signature="imports" expanded="true" />
                   </folding>
@@ -514,11 +455,65 @@
               </provider>
             </entry>
           </file>
-          <file leaf-file-name="PageObject.class" pinned="false" current-in-tab="false">
-            <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.0/serenity-core-1.9.0.jar!/net/serenitybdd/core/pages/PageObject.class">
+          <file leaf-file-name="UserManagement.feature" pinned="false" current-in-tab="true">
+            <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserManagement.feature">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="4485">
-                  <caret line="391" selection-start-line="391" selection-end-line="391" />
+                <state relative-caret-position="238">
+                  <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="UserMgn_UserPage.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="321">
+                  <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                    <element signature="e#1665#1666#0" expanded="true" />
+                    <element signature="e#1701#1702#0" expanded="true" />
+                    <element signature="e#1749#1750#0" expanded="true" />
+                    <element signature="e#1799#1800#0" expanded="true" />
+                    <element signature="e#1842#1843#0" expanded="true" />
+                    <element signature="e#1880#1881#0" expanded="true" />
+                    <element signature="e#2404#2405#0" expanded="true" />
+                    <element signature="e#2487#2488#0" expanded="true" />
+                    <element signature="e#2530#2531#0" expanded="true" />
+                    <element signature="e#2564#2565#0" expanded="true" />
+                    <element signature="e#2753#2754#0" expanded="true" />
+                    <element signature="e#2795#2796#0" expanded="true" />
+                    <element signature="e#2941#2942#0" expanded="true" />
+                    <element signature="e#3010#3011#0" expanded="true" />
+                    <element signature="e#3062#3063#0" expanded="true" />
+                    <element signature="e#3107#3108#0" expanded="true" />
+                    <element signature="e#3271#3272#0" expanded="true" />
+                    <element signature="e#3328#3329#0" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="AddEmployeeTestRunner.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="180">
+                  <caret line="14" selection-start-line="14" selection-end-line="14" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
+                </state>
+              </provider>
+            </entry>
+          </file>
+          <file leaf-file-name="LoginTestRunner.java" pinned="false" current-in-tab="false">
+            <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java">
+              <provider selected="true" editor-type-id="text-editor">
+                <state relative-caret-position="150">
+                  <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+                  <folding>
+                    <element signature="imports" expanded="true" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -543,6 +538,12 @@
       <find>systemUser_status</find>
       <find>searchSystemUser_status</find>
       <find>void</find>
+      <find>selenium</find>
+      <find>allure.cucumber.jvm.adaptor</find>
+      <find>webdriver.drive</find>
+      <find>cucumber</find>
+      <find>erenity.cucumber.version</find>
+      <find>addEmpName</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -563,55 +564,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginStepDefintion.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/features/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefintion.java" />
         <option value="$PROJECT_DIR$/DemoSerenityBDDCucumberOrangeHRM.iml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginTestRunner.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/DashboardPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/AdminPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/User Management.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/Admin.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/Admin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/dashboard/DashboardPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java" />
         <option value="$PROJECT_DIR$/src/test/resources/features/logout.feature" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserMgmntStepDef.java" />
-        <option value="$PROJECT_DIR$/serenity.properties" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/UserMgmntSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LogoutTestRunner.java" />
         <option value="$PROJECT_DIR$/src/main/java/URLs/URL.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/UserManagementTestRunner.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LogoutSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
         <option value="$PROJECT_DIR$/src/main/java/URLs/OHRM_URL.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/UserManagementSteps.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinitions.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/HomePage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/HomePageSteps.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmplyeePage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModel.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelLoginAndAdminPage.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelAdmin.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelPIM.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelLogin.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java" />
-        <option value="$PROJECT_DIR$/src/test/resources/features/UserManagement.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/dashboard/DashboardPage.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/HomePage.java" />
+        <option value="$PROJECT_DIR$/serenity.properties" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/MyStepdefs.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Logout.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/EmplyeeListPage.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/Login.feature" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/EmployeeListPage.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/ohrm/automation/utils/Log.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/PIM/Add Employee.feature" />
+        <option value="$PROJECT_DIR$/src/test/resources/features/UserManagement.feature" />
       </list>
     </option>
   </component>
@@ -634,10 +637,10 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-10" />
-    <option name="y" value="-10" />
-    <option name="width" value="1939" />
-    <option name="height" value="1049" />
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1060" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -645,8 +648,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="AndroidView" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -658,11 +659,6 @@
             <path>
               <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
               <item name="DemoSerenityBDDCucumberOrangeHRM" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
-              <item name="DemoSerenityBDDCucumberOrangeHRM" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -693,7 +689,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="urls" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoSerenityBDDCucumberOrangeHRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="automation" type="462c0819:PsiDirectoryNode" />
+              <item name="utils" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
@@ -742,7 +747,7 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="automation" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="pim" type="462c0819:PsiDirectoryNode" />
+              <item name="admin" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
@@ -780,6 +785,15 @@
             <path>
               <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
               <item name="DemoSerenityBDDCucumberOrangeHRM" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="features" type="462c0819:PsiDirectoryNode" />
+              <item name="PIM" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="DemoSerenityBDDCucumberOrangeHRM" type="b2602c69:ProjectViewProjectNode" />
+              <item name="DemoSerenityBDDCucumberOrangeHRM" type="462c0819:PsiDirectoryNode" />
               <item name="target" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -790,11 +804,13 @@
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last.edited.regexp" value="Admin" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps" />
+    <property name="last_opened_file_path" value="D:/TESTING_REPOSITORIES/bdd-appium-cucumber-serenity" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -802,19 +818,22 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\resources\features\PIM" />
+      <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\resources\features\Admin" />
+      <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\resources\Features" />
+    </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.ohrm.automation" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.ohrm.automation.utils" />
+      <recent name="com.ohrm.automation.model" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM" />
       <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\resources" />
       <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\java" />
-    </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="com.ohrm.automation.model" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\User\Documents\GitHub\DemoSerenityBDDCucumberOrangeHRM\src\test\resources\Features" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -829,7 +848,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Cucumber java.Scenario: Able to Add Employee Successfully (1)">
+  <component name="RunManager" selected="JUnit.AddEmployeeTestRunner">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -844,7 +863,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: AddEmployee (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Add Employee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="DemoSerenityBDDCucumberOrangeHRM" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
@@ -855,7 +874,7 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Feature: AddEmployee" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="DemoSerenityBDDCucumberOrangeHRM" />
       <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
@@ -866,21 +885,10 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Scenario: Able to Add Employee Successfully (1)" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
+    <configuration name="Feature: Login" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
       <module name="DemoSerenityBDDCucumberOrangeHRM" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Able to Add Employee Successfully$&quot;" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cucumber.api.cli.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-    </configuration>
-    <configuration name="Scenario: Able to Add Employee Successfully" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="cucumber.api.cli.Main" />
-      <module name="DemoSerenityBDDCucumberOrangeHRM" />
-      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome --name &quot;^Able to Add Employee Successfully$&quot;" />
+      <option name="PROGRAM_PARAMETERS" value=" --plugin org.jetbrains.plugins.cucumber.java.run.CucumberJvm2SMFormatter --monochrome" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="cucumber.api.cli.*" />
@@ -900,6 +908,29 @@
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="PACKAGE_NAME" value="com.ohrm.automation.TestRunner" />
       <option name="MAIN_CLASS_NAME" value="com.ohrm.automation.TestRunner.AddEmployeeTestRunner" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="LoginTestRunner" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DemoSerenityBDDCucumberOrangeHRM" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.ohrm.automation.TestRunner.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.ohrm.automation.TestRunner" />
+      <option name="MAIN_CLASS_NAME" value="com.ohrm.automation.TestRunner.LoginTestRunner" />
       <option name="METHOD_NAME" />
       <option name="TEST_OBJECT" value="class" />
       <option name="VM_PARAMETERS" value="-ea" />
@@ -951,19 +982,19 @@
     </configuration>
     <list>
       <item itemvalue="Cucumber java.All Features in: resources" />
-      <item itemvalue="Cucumber java.Feature: AddEmployee" />
-      <item itemvalue="Cucumber java.Feature: AddEmployee (1)" />
-      <item itemvalue="Cucumber java.Scenario: Able to Add Employee Successfully" />
       <item itemvalue="JUnit.AddEmployeeTestRunner" />
-      <item itemvalue="Cucumber java.Scenario: Able to Add Employee Successfully (1)" />
+      <item itemvalue="JUnit.LoginTestRunner" />
+      <item itemvalue="Cucumber java.Feature: Login (1)" />
+      <item itemvalue="Cucumber java.Feature: Add Employee" />
+      <item itemvalue="Cucumber java.Feature: Login" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Cucumber java.Scenario: Able to Add Employee Successfully (1)" />
         <item itemvalue="JUnit.AddEmployeeTestRunner" />
-        <item itemvalue="Cucumber java.Scenario: Able to Add Employee Successfully" />
-        <item itemvalue="Cucumber java.Feature: AddEmployee (1)" />
-        <item itemvalue="Cucumber java.Feature: AddEmployee" />
+        <item itemvalue="Cucumber java.Feature: Login" />
+        <item itemvalue="JUnit.LoginTestRunner" />
+        <item itemvalue="Cucumber java.Feature: Login (1)" />
+        <item itemvalue="Cucumber java.Feature: Add Employee" />
       </list>
     </recent_temporary>
   </component>
@@ -981,35 +1012,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Feature__AddEmployee_(1) - 2019.01.26 at 23h 47m 23s.xml">
-      <configuration name="Feature: AddEmployee (1)" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="Scenario__Able_to_Add_Employee_Successfully - 2019.01.26 at 23h 50m 27s.xml">
-      <configuration name="Scenario: Able to Add Employee Successfully" configurationId="CucumberJavaRunConfigurationType" />
-    </history-entry>
-    <history-entry file="AddEmployeeTestRunner - 2019.01.26 at 23h 50m 54s.xml">
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 23m 37s.xml">
       <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddEmployeeTestRunner - 2019.01.26 at 23h 53m 29s.xml">
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 25m 08s.xml">
       <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddEmployeeTestRunner - 2019.01.26 at 23h 57m 23s.xml">
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 28m 14s.xml">
       <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddEmployeeTestRunner - 2019.01.26 at 23h 59m 42s.xml">
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 32m 58s.xml">
       <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="AddEmployeeTestRunner - 2019.01.27 at 00h 01m 00s.xml">
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 34m 06s.xml">
       <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Able_to_Add_Employee_Successfully_(1) - 2019.01.28 at 10h 47m 56s.xml">
-      <configuration name="Scenario: Able to Add Employee Successfully (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 36m 34s.xml">
+      <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Able_to_Add_Employee_Successfully_(1) - 2019.01.28 at 10h 51m 36s.xml">
-      <configuration name="Scenario: Able to Add Employee Successfully (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 43m 17s.xml">
+      <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Scenario__Able_to_Add_Employee_Successfully_(1) - 2019.01.28 at 10h 53m 34s.xml">
-      <configuration name="Scenario: Able to Add Employee Successfully (1)" configurationId="CucumberJavaRunConfigurationType" />
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 48m 11s.xml">
+      <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 57m 18s.xml">
+      <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="AddEmployeeTestRunner - 2019.04.03 at 12h 58m 07s.xml">
+      <configuration name="AddEmployeeTestRunner" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -1022,66 +1053,49 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="848" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.3298969" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32960895" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.44919" />
       <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="right" id="Coverage" side_tool="true" visible="true" weight="0.08187919" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3460972" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.44847605" />
+      <window_info anchor="bottom" id="Terminal" order="7" visible="true" weight="0.3149492" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17651007" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.1885906" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
       <window_info anchor="right" id="Theme Preview" order="3" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6318115" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39477503" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" visible="true" weight="0.0" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" visible="true" weight="0.03691275" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32946298" />
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3280116" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/Config_RegOAuthClntPage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="36" selection-start-line="2" selection-start-column="36" selection-end-line="2" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/directory/DirectoryPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="26" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/Config_DataImportPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="34" selection-start-line="2" selection-start-column="34" selection-end-line="2" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/Config_ReportMethodsPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="37" selection-start-line="2" selection-start-column="37" selection-end-line="2" selection-end-column="37" />
+        <state relative-caret-position="150">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1148,55 +1162,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar!/cucumber/api/DataTable.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/dashboard/DashboardPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/serenity.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="40" selection-start-line="1" selection-start-column="40" selection-end-line="1" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="62">
-          <caret line="127" column="60" selection-start-line="127" selection-start-column="60" selection-end-line="127" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="26" column="30" lean-forward="true" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/urls/OHRM_URL.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LogoutSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="12" column="26" selection-start-line="12" selection-start-column="26" selection-end-line="12" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LogoutTestRunner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -1211,24 +1176,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="80" column="5" selection-start-line="80" selection-start-column="5" selection-end-line="80" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="38" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="19" column="21" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
         </state>
       </provider>
     </entry>
@@ -1239,28 +1190,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="42" column="1" selection-start-line="42" selection-start-column="1" selection-end-line="44" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="16" column="28" selection-start-line="15" selection-start-column="3" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#637#638#0" expanded="true" />
-            <element signature="e#669#670#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/2.3.1/cucumber-java-2.3.1.jar!/cucumber/api/java/en/Given.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1268,101 +1197,14 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.0/serenity-core-1.9.0.jar!/net/serenitybdd/core/pages/PageObject.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4485">
-          <caret line="391" selection-start-line="391" selection-end-line="391" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/UserManagementSteps.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
           <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" selection-start-line="2" selection-end-line="11" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="7" column="17" selection-start-line="7" selection-start-column="17" selection-end-line="7" selection-end-column="17" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/HomePageSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="2" selection-start-line="15" selection-start-column="2" selection-end-line="15" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="51" column="16" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/helper/DatabaseHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelPIMBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="45" column="34" selection-start-line="45" selection-start-column="34" selection-end-line="45" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Logout.feature">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" selection-start-line="12" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelPIMBuilder.java" />
     <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-java/2.3.1/cucumber-java-2.3.1.jar!/cucumber/api/java/en/And.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -1381,165 +1223,126 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="870">
           <caret line="58" column="20" selection-start-line="58" selection-start-column="8" selection-end-line="58" selection-end-column="20" />
-          <folding>
-            <element signature="e#1509#1510#0" expanded="true" />
-            <element signature="e#1540#1541#0" expanded="true" />
-            <element signature="e#1773#1774#0" expanded="true" />
-            <element signature="e#1803#1804#0" expanded="true" />
-            <element signature="e#1968#1969#0" expanded="true" />
-            <element signature="e#1998#1999#0" expanded="true" />
-            <element signature="e#1652#1653#0" expanded="true" />
-            <element signature="e#1679#1680#0" expanded="true" />
-            <element signature="e#1817#1818#0" expanded="true" />
-            <element signature="e#1844#1845#0" expanded="true" />
-            <element signature="e#1987#1988#0" expanded="true" />
-            <element signature="e#2019#2020#0" expanded="true" />
-            <element signature="e#2181#2182#0" expanded="true" />
-            <element signature="e#2212#2213#0" expanded="true" />
-            <element signature="e#2333#2334#0" expanded="true" />
-            <element signature="e#2362#2363#0" expanded="true" />
-            <element signature="e#2476#2477#0" expanded="true" />
-            <element signature="e#2506#2507#0" expanded="true" />
-            <element signature="e#2622#2623#0" expanded="true" />
-            <element signature="e#2650#2651#0" expanded="true" />
-            <element signature="e#2758#2759#0" expanded="true" />
-            <element signature="e#2786#2787#0" expanded="true" />
-            <element signature="e#2897#2898#0" expanded="true" />
-            <element signature="e#2928#2929#0" expanded="true" />
-            <element signature="e#3047#3048#0" expanded="true" />
-            <element signature="e#3074#3075#0" expanded="true" />
-            <element signature="e#3181#3182#0" expanded="true" />
-            <element signature="e#3212#3213#0" expanded="true" />
-            <element signature="e#3332#3333#0" expanded="true" />
-            <element signature="e#3360#3361#0" expanded="true" />
-            <element signature="e#3472#3473#0" expanded="true" />
-            <element signature="e#3504#3505#0" expanded="true" />
-            <element signature="e#3626#3627#0" expanded="true" />
-            <element signature="e#3652#3653#0" expanded="true" />
-            <element signature="e#3755#3756#0" expanded="true" />
-            <element signature="e#3786#3787#0" expanded="true" />
-            <element signature="e#3908#3909#0" expanded="true" />
-            <element signature="e#3938#3939#0" expanded="true" />
-            <element signature="e#4056#4057#0" expanded="true" />
-            <element signature="e#4086#4087#0" expanded="true" />
-            <element signature="e#4204#4205#0" expanded="true" />
-            <element signature="e#4234#4235#0" expanded="true" />
-            <element signature="e#4351#4352#0" expanded="true" />
-            <element signature="e#4380#4381#0" expanded="true" />
-            <element signature="e#4491#4492#0" expanded="true" />
-            <element signature="e#4518#4519#0" expanded="true" />
-            <element signature="e#4622#4623#0" expanded="true" />
-            <element signature="e#4650#4651#0" expanded="true" />
-            <element signature="e#4763#4764#0" expanded="true" />
-            <element signature="e#4796#4797#0" expanded="true" />
-            <element signature="e#4932#4933#0" expanded="true" />
-            <element signature="e#4968#4969#0" expanded="true" />
-            <element signature="e#5113#5114#0" expanded="true" />
-            <element signature="e#5146#5147#0" expanded="true" />
-            <element signature="e#5277#5278#0" expanded="true" />
-            <element signature="e#5308#5309#0" expanded="true" />
-            <element signature="e#5433#5434#0" expanded="true" />
-            <element signature="e#5466#5467#0" expanded="true" />
-            <element signature="e#5592#5593#0" expanded="true" />
-            <element signature="e#5618#5619#0" expanded="true" />
-            <element signature="e#5717#5718#0" expanded="true" />
-            <element signature="e#5744#5745#0" expanded="true" />
-            <element signature="e#5845#5846#0" expanded="true" />
-            <element signature="e#5870#5871#0" expanded="true" />
-            <element signature="e#5967#5968#0" expanded="true" />
-            <element signature="e#5996#5997#0" expanded="true" />
-            <element signature="e#6114#6115#0" expanded="true" />
-            <element signature="e#6148#6149#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/EmplyeeListPage.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/helper/DatabaseHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
-          <caret line="2" column="28" selection-start-line="2" selection-start-column="28" selection-end-line="2" selection-end-column="28" />
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/dashboard/DashboardPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        <state relative-caret-position="465">
+          <caret line="45" column="18" selection-start-line="45" selection-start-column="18" selection-end-line="45" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/maven/lib/maven.jar!/schemas/maven-4.0.0.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="207">
+          <caret line="893" column="6" selection-start-line="893" selection-start-column="6" selection-end-line="893" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="58" column="21" selection-start-line="58" selection-start-column="21" selection-end-line="58" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-411">
+          <caret line="23" column="22" selection-start-line="23" selection-start-column="22" selection-end-line="23" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1257#1258#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1499#1500#0" expanded="true" />
+            <element signature="e#1540#1541#0" expanded="true" />
+            <element signature="e#1649#1650#0" expanded="true" />
+            <element signature="e#1686#1687#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/model/TestDataModelPIM.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="239" column="5" lean-forward="true" selection-start-line="239" selection-start-column="5" selection-end-line="239" selection-end-column="5" />
+        <state relative-caret-position="1800">
+          <caret line="146" column="28" selection-start-line="146" selection-start-column="28" selection-end-line="146" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/cucumber/cucumber-core/2.3.0/cucumber-core-2.3.0.jar!/cucumber/api/DataTable.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="3" lean-forward="true" selection-start-line="20" selection-start-column="3" selection-end-line="20" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LogoutStepDefinition.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="263">
+          <caret line="28" column="16" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/serenity.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="7" lean-forward="true" selection-start-column="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LogoutSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="29" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/LoginTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="30" selection-start-line="12" selection-start-column="30" selection-end-line="12" selection-end-column="30" />
           <folding>
-            <element signature="e#897#898#0" expanded="true" />
-            <element signature="e#929#930#0" expanded="true" />
-            <element signature="e#1055#1056#0" expanded="true" />
-            <element signature="e#1085#1086#0" expanded="true" />
-            <element signature="e#1198#1199#0" expanded="true" />
-            <element signature="e#1223#1224#0" expanded="true" />
-            <element signature="e#1325#1326#0" expanded="true" />
-            <element signature="e#1359#1360#0" expanded="true" />
-            <element signature="e#1493#1494#0" expanded="true" />
-            <element signature="e#1523#1524#0" expanded="true" />
-            <element signature="e#1642#1643#0" expanded="true" />
-            <element signature="e#1673#1674#0" expanded="true" />
-            <element signature="e#1795#1796#0" expanded="true" />
-            <element signature="e#1825#1826#0" expanded="true" />
-            <element signature="e#1944#1945#0" expanded="true" />
-            <element signature="e#1975#1976#0" expanded="true" />
-            <element signature="e#2100#2101#0" expanded="true" />
-            <element signature="e#2133#2134#0" expanded="true" />
-            <element signature="e#2264#2265#0" expanded="true" />
-            <element signature="e#2295#2296#0" expanded="true" />
-            <element signature="e#2417#2418#0" expanded="true" />
-            <element signature="e#2447#2448#0" expanded="true" />
-            <element signature="e#2563#2564#0" expanded="true" />
-            <element signature="e#2591#2592#0" expanded="true" />
-            <element signature="e#2702#2703#0" expanded="true" />
-            <element signature="e#2733#2734#0" expanded="true" />
-            <element signature="e#2856#2857#0" expanded="true" />
-            <element signature="e#2887#2888#0" expanded="true" />
-            <element signature="e#3014#3015#0" expanded="true" />
-            <element signature="e#3049#3050#0" expanded="true" />
-            <element signature="e#3186#3187#0" expanded="true" />
-            <element signature="e#3215#3216#0" expanded="true" />
-            <element signature="e#3332#3333#0" expanded="true" />
-            <element signature="e#3365#3366#0" expanded="true" />
-            <element signature="e#3500#3501#0" expanded="true" />
-            <element signature="e#3535#3536#0" expanded="true" />
-            <element signature="e#3675#3676#0" expanded="true" />
-            <element signature="e#3707#3708#0" expanded="true" />
-            <element signature="e#3837#3838#0" expanded="true" />
-            <element signature="e#3871#3872#0" expanded="true" />
-            <element signature="e#4009#4010#0" expanded="true" />
-            <element signature="e#4043#4044#0" expanded="true" />
-            <element signature="e#4179#4180#0" expanded="true" />
-            <element signature="e#4211#4212#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
-            <element signature="e#4365#4366#0" expanded="true" />
-            <element signature="e#4476#4477#0" expanded="true" />
-            <element signature="e#4503#4504#0" expanded="true" />
-            <element signature="e#4612#4613#0" expanded="true" />
-            <element signature="e#4645#4646#0" expanded="true" />
-            <element signature="e#4772#4773#0" expanded="true" />
-            <element signature="e#4799#4800#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserManagement.feature">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/utils/Log.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="454">
-          <caret line="37" selection-start-line="37" selection-end-line="37" selection-end-column="65" />
+        <state relative-caret-position="105">
+          <caret line="8" column="20" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java">
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/EmployeeListPage.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        <state relative-caret-position="345">
+          <caret line="33" column="1" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1548,38 +1351,165 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/LoginStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="262">
-          <caret line="95" column="5" selection-start-line="95" selection-start-column="5" selection-end-line="95" selection-end-column="5" />
+        <state relative-caret-position="330">
+          <caret line="36" column="25" selection-start-line="36" selection-start-column="25" selection-end-line="36" selection-end-column="25" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#640#641#0" expanded="true" />
-            <element signature="e#671#672#0" expanded="true" />
-            <element signature="e#707#708#0" expanded="true" />
-            <element signature="e#734#735#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/resources/features/AddEmployee.feature">
+    <entry file="jar://$MAVEN_REPOSITORY$/net/serenity-bdd/serenity-core/1.9.0/serenity-core-1.9.0.jar!/net/serenitybdd/core/pages/PageObject.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="7575">
+          <caret line="613" column="22" selection-start-line="613" selection-start-column="22" selection-end-line="613" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/login/LoginPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1073#1074#0" expanded="true" />
+            <element signature="e#1126#1127#0" expanded="true" />
+            <element signature="e#1170#1171#0" expanded="true" />
+            <element signature="e#1223#1224#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/ohrm/automation/urls/OHRM_URL.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="39" selection-start-line="6" selection-start-column="39" selection-end-line="6" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/UserManagementStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="195">
-          <caret line="13" column="16" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
+          <caret line="13" selection-start-line="13" selection-end-line="13" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/LoginSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#696#697#0" expanded="true" />
+            <element signature="e#728#729#0" expanded="true" />
+            <element signature="e#991#992#0" expanded="true" />
+            <element signature="e#1030#1031#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/HomePageSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="16" column="16" selection-start-line="16" selection-start-column="16" selection-end-line="16" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/TestRunner/AddEmployeeTestRunner.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/admin/UserMgn_UserPage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="128" column="1" lean-forward="true" selection-start-line="128" selection-start-column="1" selection-end-line="128" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1665#1666#0" expanded="true" />
+            <element signature="e#1701#1702#0" expanded="true" />
+            <element signature="e#1749#1750#0" expanded="true" />
+            <element signature="e#1799#1800#0" expanded="true" />
+            <element signature="e#1842#1843#0" expanded="true" />
+            <element signature="e#1880#1881#0" expanded="true" />
+            <element signature="e#2404#2405#0" expanded="true" />
+            <element signature="e#2487#2488#0" expanded="true" />
+            <element signature="e#2530#2531#0" expanded="true" />
+            <element signature="e#2564#2565#0" expanded="true" />
+            <element signature="e#2753#2754#0" expanded="true" />
+            <element signature="e#2795#2796#0" expanded="true" />
+            <element signature="e#2941#2942#0" expanded="true" />
+            <element signature="e#3010#3011#0" expanded="true" />
+            <element signature="e#3062#3063#0" expanded="true" />
+            <element signature="e#3107#3108#0" expanded="true" />
+            <element signature="e#3271#3272#0" expanded="true" />
+            <element signature="e#3328#3329#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/serenitySteps/AddEmployeeSteps.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/pages/pim/AddEmployeePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-310">
+          <caret line="7" column="42" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#2106#2107#0" expanded="true" />
+            <element signature="e#2159#2160#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/ohrm/automation/cucumberSteps/AddEmployeeStepDefinition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="93" column="113" selection-start-line="93" selection-start-column="113" selection-end-line="93" selection-end-column="113" />
+        <state relative-caret-position="185">
+          <caret line="98" column="16" selection-start-line="98" selection-start-column="16" selection-end-line="98" selection-end-column="16" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1206#1207#0" expanded="true" />
-            <element signature="e#1238#1239#0" expanded="true" />
-            <element signature="e#1262#1263#0" expanded="true" />
-            <element signature="e#1294#1295#0" expanded="true" />
-            <element signature="e#1342#1343#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/PIM/Add Employee.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-63">
+          <caret line="20" column="47" lean-forward="true" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Login.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/Logout.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="12" column="22" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/resources/features/UserManagement.feature">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="30" column="4" selection-start-line="30" selection-start-column="4" selection-end-line="30" selection-end-column="4" />
         </state>
       </provider>
     </entry>

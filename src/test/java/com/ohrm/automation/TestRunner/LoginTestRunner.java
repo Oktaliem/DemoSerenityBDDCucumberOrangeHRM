@@ -11,5 +11,4 @@ import org.junit.runner.RunWith;
         glue ="com/ohrm/automation/cucumberSteps"
 )
 public class LoginTestRunner {
-    // mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_1"
 }

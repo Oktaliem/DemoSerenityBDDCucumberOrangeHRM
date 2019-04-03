@@ -22,7 +22,6 @@ com\ohrm\automation\pages\admin\Job_WorkShiftsPage.class
 com\ohrm\automation\pages\pim\Config_DataImportPage.class
 com\ohrm\automation\pages\admin\Config_SosMedAuthPage.class
 com\ohrm\automation\pages\admin\Config_LocalizationPage.class
-com\ohrm\automation\pages\pim\EmplyeeListPage.class
 com\ohrm\automation\pages\performance\Config_KPIsPage.class
 com\ohrm\automation\pages\admin\Org_GeneralInfoPage.class
 com\ohrm\automation\pages\admin\UserMgn_UserPage.class
@@ -47,6 +46,7 @@ com\ohrm\automation\pages\admin\Job_PayGradesPage.class
 com\ohrm\automation\pages\admin\Job_JobCategoryPage.class
 com\ohrm\automation\serenitySteps\UserManagementSteps.class
 com\ohrm\automation\pages\admin\Config_EmailSubScribPage.class
+com\ohrm\automation\pages\pim\EmployeeListPage.class
 com\ohrm\automation\pages\admin\Config_ModulesPage.class
 com\ohrm\automation\pages\pim\ReportsPage.class
 com\ohrm\automation\pages\recruitment\CandidatesPage.class

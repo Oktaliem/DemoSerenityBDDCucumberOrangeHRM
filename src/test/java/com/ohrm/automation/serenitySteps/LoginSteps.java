@@ -5,16 +5,17 @@ import com.ohrm.automation.pages.dashboard.DashboardPage;
 import com.ohrm.automation.pages.login.LoginPage;
 import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Step;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
 import static com.ohrm.automation.urls.OHRM_URL.dashBoardPage;
 import static org.hamcrest.CoreMatchers.containsString;
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class LoginSteps{
-    //@Managed(driver = "chrome")
     @Managed
-    WebDriver driver = null;
+    WebDriver driver;
 
     LoginPage loginPage;
     DashboardPage dashboard;
@@ -40,13 +41,22 @@ public class LoginSteps{
     }
 
     @Step
-    public void isDirectingToDashBoardPage() throws InterruptedException {
+    public void isDirectingToDashBoardPage() {
         assertThat(dashboard.getDashboardPageURL(), containsString(dashBoardPage));
+        assertThat(dashboard.getDashboardTitle(), equalTo("Dashboard"));
     }
 
     @Step
-    public void errorMessageWillBeDisplayed(String assertion) {
-        loginPage.checkErrorMessageLoginPage(assertion);
+    public void errorMessageWillBeDisplayed(String errorMessage) {
+        String element = loginPage.getLoginErrorMessage();
+        switch (errorMessage) {
+            case "Invalid credentials":
+                assertThat(element, equalTo("Invalid credentials"));
+                break;
+            case "Username cannot be empty":
+                assertThat(element, equalTo("Username cannot be empty"));
+                break;
+        }
     }
 
     @Step

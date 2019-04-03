@@ -2,7 +2,7 @@ package com.ohrm.automation.cucumberSteps;
 
 import com.ohrm.automation.serenitySteps.LoginSteps;
 import cucumber.api.DataTable;
-import cucumber.api.java.en.And;
+import cucumber.api.PendingException;
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -10,7 +10,7 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Steps;
 import org.openqa.selenium.WebDriver;
 
-import java.util.List;
+import java.util.Map;
 
 
 public class LoginStepDefinition {
@@ -21,14 +21,14 @@ public class LoginStepDefinition {
     LoginSteps user;
 
     private static String userName;
-    private static String pswd;
+    private static String password;
 
     public static String getUserName() {
         return userName;
     }
 
-    public static String getPswd() {
-        return pswd;
+    public static String getPassword() {
+        return password;
     }
 
     @Given("^User is in the Login Page$")
@@ -37,21 +37,23 @@ public class LoginStepDefinition {
         user.open_OHRM_URL();
     }
 
-    @When("^User provides the Username (.*) and Password (.*)$")
+    @When("^User provides valid Username (.*) and Password (.*)$")
     public void user_provides_Username_admin_and_password(String username, String password) throws Throwable {
         user.LoginToPortal(username, password);
     }
 
-    @Then("^User is able to login$")
-    public void User_is_able_to_login() throws Throwable {
-        user.isDirectingToDashBoardPage();
-    }
-
-    @When("^User provides invalid the Username (.*) and Password (.*)$")
+    /*
+        @Then("^User is able to login$")
+        public void User_is_able_to_login() throws Throwable {
+            user.isDirectingToDashBoardPage();
+            user.AllElementDashboardPageAreDisplayed();
+        }
+    */
+    @When("^User provides invalid Username (.*) and Password (.*)$")
     public void userProvidesInvalidTheUserNameAndPassword(String username, String password) throws Throwable {
         user.LoginToPortal(username, password);
     }
-
+/*
     @Then("^User is unable to login with Invalid UserName$")
     public void userIsUnableToLoginWithInvalidUserName() throws Throwable {
         String assertion = "invalid_credentials";
@@ -64,20 +66,22 @@ public class LoginStepDefinition {
         user.errorMessageWillBeDisplayed(assertion);
 
     }
-
+*/
+/*
     @When("^User provides invalid the Username and Password$")
     public void userProvidesInvalidTheUsernameAndPassword(String username, String password) throws Throwable {
         user.inputUserName(username);
         user.inputPassword(password);
         user.clickSubmitButton();
     }
-
+*/
+/*
     @Then("^User is unable to login with empty username and password$")
     public void userIsUnableToLoginWithEmptyUsernameAndPassword() throws Throwable {
         String assertion = "empty_credential";
         user.errorMessageWillBeDisplayed(assertion);
     }
-
+*/
 
     @When("^User provides empty the Username and empty Password$")
     public void userProvidesEmptyTheUsernameAndEmptyPassword() throws Throwable {
@@ -86,12 +90,30 @@ public class LoginStepDefinition {
         user.clickSubmitButton();
     }
 
-    @Given("^User has login to Portal with valid credential$")
+    @Given("^User has logged in to Portal with valid credential$")
     public void userHasLoginToPortalWithValidCredential(DataTable table) throws Throwable {
+        for (Map<String, String> credential : table.asMaps(String.class, String.class)) {
+            userName = credential.get("username");
+            password = credential.get("password");
+        }
+        user.LoginToPortal(userName, password);
+
+        //or you can use below snippet
+        /*
         List<List<String>> data = table.raw();
-        // data.get(1).get(0) baris kemudian kolom
-        user.LoginToPortal(data.get(1).get(0), data.get(1).get(1));
         userName = data.get(1).get(0);
-        pswd = data.get(1).get(1);
+        password = data.get(1).get(1);
+        user.LoginToPortal(userName, password);
+        */
+    }
+
+    @Then("^Error message should appear with text \"([^\"]*)\"$")
+    public void errorMessageShouldAppearWithText(String errorMessage) throws Throwable {
+        user.errorMessageWillBeDisplayed(errorMessage);
+    }
+
+    @Then("^User should landing to Dashboard Page$")
+    public void userShouldLandingToDashboardPage() throws Throwable {
+        user.isDirectingToDashBoardPage();
     }
 }

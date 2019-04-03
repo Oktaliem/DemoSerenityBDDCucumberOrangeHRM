@@ -1,29 +1,27 @@
-@regression
-
+@Regression @LoginRegression
 Feature: Login to Orange HRM
-  In Order To Access OHRM Portal
-  User has to login to Portal
-# mvn clean verify -Dcucumber.options=" --plugin pretty --tags @priority_3"
+  In Order To Access Orange HRM Portal
+  User has to login to Web Portal
 
   Background: User is in the Login Page
     Given User is in the Login Page
 
-  @priority_1
+  @TC_L0GIN.001 @SmokeTest
   Scenario:  Login to the Application Successfully
-    When User provides the Username admin and Password admin
-    Then User is able to login
+    When User provides valid Username admin and Password admin
+    Then User should landing to Dashboard Page
 
-  @priority_2
+  @TC_L0GIN.002
   Scenario:  Login to the Application with Invalid UserName
-    When User provides invalid the Username tukiyem and Password admin
-    Then User is unable to login with Invalid UserName
+    When User provides invalid Username john and Password admin
+    Then Error message should appear with text "Invalid credentials"
 
-  @priority_2
+  @TC_L0GIN.003
   Scenario:  Login to the Application with Invalid Password
-    When User provides invalid the Username admin and Password tukiyem
-    Then User is unable to login with Invalid Password
+    When User provides invalid Username admin and Password john
+    Then Error message should appear with text "Invalid credentials"
 
-  @priority_3
+  @TC_L0GIN4004
   Scenario:  Login to the Application with Empty UserName And Empty Password
     When User provides empty the Username and empty Password
-    Then User is unable to login with empty username and password
+    Then Error message should appear with text "Username cannot be empty"

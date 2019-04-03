@@ -1,3 +1,4 @@
+com\ohrm\automation\utils\Log.class
 com\ohrm\automation\urls\OHRM_URL.class
 com\ohrm\automation\utils\CreateRandomName.class
 com\ohrm\automation\helper\DatabaseHelper.class

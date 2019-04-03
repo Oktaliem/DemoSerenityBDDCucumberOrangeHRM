@@ -1,9 +1,9 @@
 [
   {
-    "line": 4,
+    "line": 2,
     "elements": [
       {
-        "line": 8,
+        "line": 7,
         "name": "User is in the Login Page",
         "description": "",
         "type": "background",
@@ -11,10 +11,10 @@
         "steps": [
           {
             "result": {
-              "duration": 3624135229,
+              "duration": 3582519196,
               "status": "passed"
             },
-            "line": 9,
+            "line": 8,
             "name": "User is in the Login Page",
             "match": {
               "location": "LoginStepDefinition.user_is_in_the_Login_Page()"
@@ -23,14 +23,11 @@
           },
           {
             "result": {
-              "duration": 2155711623,
-              "status": "passed"
+              "status": "undefined"
             },
-            "line": 16,
+            "line": 15,
             "name": "User has login to Portal with valid credential",
-            "match": {
-              "location": "LoginStepDefinition.userHasLoginToPortalWithValidCredential(DataTable)"
-            },
+            "match": {},
             "rows": [
               {
                 "cells": [
@@ -49,10 +46,9 @@
           },
           {
             "result": {
-              "duration": 2277785488,
-              "status": "passed"
+              "status": "skipped"
             },
-            "line": 19,
+            "line": 18,
             "name": "User is in the Admin Portal - User Management - System Users",
             "match": {
               "location": "UserManagementStepDefinition.userIsInTheAdminPortalUserManagementSystemUsers()"
@@ -71,9 +67,7 @@
         "steps": [
           {
             "result": {
-              "error_message": "cucumber.api.PendingException: TODO: implement me\r\n\tat com.ohrm.automation.cucumberSteps.UserManagementStepDefinition.userFilterUserCredentialByUser_name(UserManagementStepDefinition.java:60)\r\n\tat ✽.User filter user credential by \u003cuser_name\u003e(src/test/resources/features/UserManagement.feature:35)\r\n",
-              "duration": 298833504,
-              "status": "pending"
+              "status": "skipped"
             },
             "line": 35,
             "name": "User filter user credential by \u003cuser_name\u003e",
@@ -115,11 +109,6 @@
             },
             "keyword": "Then "
           }
-        ],
-        "tags": [
-          {
-            "name": "@regression"
-          }
         ]
       }
     ],
@@ -128,15 +117,6 @@
     "id": "user-management",
     "keyword": "Feature",
     "uri": "src/test/resources/features/UserManagement.feature",
-    "tags": [
-      {
-        "name": "@regression",
-        "type": "Tag",
-        "location": {
-          "line": 3,
-          "column": 1
-        }
-      }
-    ]
+    "tags": []
   }
 ]

@@ -19,13 +19,16 @@ public class DashboardPage extends PageObject {
     @FindBy(xpath = "//span[contains(text(),'Timesheets')]")
     WebElement timeSheets;
 
+    @FindBy(xpath = "//*[@id=\"content\"]/div[1]/div[1]/h1[1]")
+    WebElement headerForm;
+
 
     public DashboardPage(WebDriver driver) {
         this.driver = driver;
     }
 
     public String getDashboardPageURL() {
-        return driver.getCurrentUrl().toString();
+        return driver.getCurrentUrl();
     }
 
     public void clickOnAssignLeave() {
@@ -38,6 +41,10 @@ public class DashboardPage extends PageObject {
 
     public void clickOnTimeSheets() {
         timeSheets.click();
+    }
+
+    public String getDashboardTitle(){
+        return headerForm.getText();
     }
 
 }

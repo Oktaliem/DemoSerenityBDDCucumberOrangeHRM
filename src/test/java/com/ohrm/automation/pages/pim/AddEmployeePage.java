@@ -51,4 +51,8 @@ public class AddEmployeePage extends PageObject {
         userPassField.sendKeys(testData.getPassword());
         userRePassField.sendKeys(testData.getConfPassword());
     }
+
+    public void goToSystemUserPage(String viewSystemUsers) {
+        driver.navigate().to(viewSystemUsers);
+    }
 }

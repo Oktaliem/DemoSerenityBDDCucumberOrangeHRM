@@ -25,7 +25,7 @@ public class LogoutStepDefinition {
        user.logoutFromPortal();
     }
 
-    @Then("^User is in the Login Page after Logout$")
+    @Then("^User landing back to Login Page$")
     public void userIsInTheLoginPageAfterLogout() throws Throwable {
         assertThat(driver.getCurrentUrl(), containsString(loginPageURL));
     }

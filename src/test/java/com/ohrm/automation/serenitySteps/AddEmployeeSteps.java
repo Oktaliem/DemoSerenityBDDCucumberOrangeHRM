@@ -59,9 +59,9 @@ public class AddEmployeeSteps {
     }
 
     @Step
-    public void inputNamesWithoutFirstName(String middleName, String lastName) {
-        addEmployeePage.inputMiddleName(middleName);
-        addEmployeePage.inputLastName(lastName);
+    public void inputNamesWithoutFirstName(String firstField, String secondField) {
+        addEmployeePage.inputMiddleName(firstField);
+        addEmployeePage.inputLastName(secondField);
     }
 
     @Step
@@ -81,5 +81,18 @@ public class AddEmployeeSteps {
         userPage.searchUserNameByEmployeeName(fullName);
         log.info(userPage.getFirstUserNameInTheTable());
         assertThat(userPage.getFirstUserNameInTheTable(), equalTo(firstName));
+    }
+
+    @Step
+    public void fieldValidationInfoIsDisplayed(String field, String errorMessage) {
+        String response = addEmployeePage.getFieldValidationErrorMessage(field);
+        assertThat(errorMessage, equalTo(response));
+        //form#frmAddEmp li:nth-child(3) > span
+    }
+
+    @Step
+    public void inputNamesWithoutLastName(String firstField, String secondField) {
+        addEmployeePage.inputFirstName(firstField);
+        addEmployeePage.inputMiddleName(secondField);
     }
 }

@@ -50,7 +50,7 @@
         var plot1 = $.jqplot('coverage_pie_chart', [
             [
                 ['Passing', 0],
-                ['Pending', 1],
+                ['Pending', 0],
                 ['Ignored', 0],
                 ['Failing', 0],
                 ['Errors',  0],
@@ -83,7 +83,7 @@
             },
             series: [
                 {label: '0 requirements tested successfully'},
-                {label: '1 requirements pending'},
+                {label: '0 requirements pending'},
                 {label: '0} requirements skipped'},
                 {label: '0} requirements with failures'},
                 {label: '0} requirements with errors'},
@@ -185,7 +185,7 @@
             <a href="7ea0a5e2d679b9deeda9910ae4a9bcd3a281e0d908303a9e16e486103e98880c.html"><i class="fa fa-comments-o"></i> Capabilities</a>
         </li>
     </ul>
-    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated 03-04-2019 16:02</span>
+    <span class="date-and-time"><a href="build-info.html"><i class="fa fa-info-circle"></i></a> Report generated </span>
     <br style="clear:left"/>
 </div>
 
@@ -204,142 +204,6 @@
 
                 </div>
 
-                <div id="requirements-summary">
-                    <div id="coverage_pie_chart"
-                         style="margin-top:10px; margin-left:10px; width:250px; height:250px;"></div>
-                    <div id="coverage_summary">
-                        <div>
-                            <h4>Requirements Overview</h4>
-                            <table class="summary-table">
-                                <head>
-                                    <tr>
-                                        <th>Requirement Type</th>
-                                        <th>Total</th>
-                                        <th>Pass&nbsp;<i class="icon-check"></i></th>
-                                        <th>Fail&nbsp;<i class="icon-thumbs-down"></i></th>
-                                        <th>Pending&nbsp;<i class="icon-calendar"></i></th>
-                                        <th>Ignored&nbsp;<i class="icon-ban-circle"></i></th>
-                                    </tr>
-                                </head>
-                                <body>
-
-                                <tr>
-                                    <td class="summary-leading-column"><a href="#test-results-table">Acceptance Criteria
-                                        (tests)</a></td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td>0</td>
-                                    <td>1</td>
-                                    <td>0</td>
-                                    <td></td>
-                                </tr>
-                                </body>
-                            </table>
-                        </div>
-
-
-
-
-
-<div>
-    <h4>Test Result Summary</h4>
-    <table class="summary-table">
-        <head>
-            <tr>
-                <th>Test Type</th>
-                <th>Total</th>
-                <th>Pass&nbsp;<i class="icon-check"/> </th>
-                <th>Fail&nbsp;<i class="icon-thumbs-down"/></th>
-                <th>Pending&nbsp;<i class="icon-calendar"/></th>
-                <th>Ignore/Skip&nbsp;<i class="icon-ban-circle"/></th>
-            </tr>
-        </head>
-        <body>
-        <tr>
-            <td class="summary-leading-column">Automated</td>
-            <td>1</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>1 (100%)</td>
-            <td>0 (0%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Manual</td>
-            <td>0</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Total</td>
-            <td>1</td>
-            <td>0 (0%)</td>
-            <td>0 (0%)</td>
-            <td>1 (100%)</td>
-            <td>0 (0%)</td>
-        </tr>
-        <tr>
-            <td class="summary-leading-column">Total Duration</td>
-                <td colspan="5">4 seconds</td>
-        </tr>
-        </body>
-    </table>
-</div>
-                    </div>
-                </div>
-                <div class="clr"></div>
-                <div id="requirements-tabs">
-<table>
-    <tr>
-        <td>
-            <div><h3>Acceptance Criteria</h3></div>
-            <div id="test_list_tests" class="table">
-                <div class="test-results">
-                    <table id="test-results-table">
-                        <thead>
-                        <tr>
-                            <th width="50" class="test-results-heading">&nbsp;</th>
-                            <th width="%" class="test-results-heading">Tests</th>
-                            <th width="70" class="test-results-heading">Steps</th>
-
-                            <th width="100" class="test-results-heading">Started</th>
-                            <th width="100" class="test-results-heading">Took<br>(secs)</th>
-                        </tr>
-                        </thead>
-                        <tbody>
-
-                            <tr class="test-PENDING">
-                                <td><span class="summary-icon"><i class='fa fa-square-o pending-icon ' title='PENDING'></i></span>
-                                    
-                                    <span style="display:none">PENDING</span></td>
-                                <td class="PENDING-text">
-                                    <div class="ellipsis">
-
-                                        <a href="6ba5c42f92e1930ac36c856bfd1504d2138447458a9afb5da0bc480c3ee919b4.html" class="ellipsis"
-                                           title="Able to Filter User Credential Successfully ">
-                                            Able to Filter User Credential Successfully
-                                                <span class="related-issue-title"></span>
-                                        </a>
-                                    </div>
-                                </td>
-
-                                <td class="PENDING-text">8</td>
-
-
-                                <td class="PENDING-text" data-sort="2019-04-03 16:02:44">16:02:44</td>
-
-                                <td class="PENDING-text">4.37</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-            </div>
-        </td>
-    </tr>
-</table>
-</div>
-                </div>
             </div>
         </div>
     </div>

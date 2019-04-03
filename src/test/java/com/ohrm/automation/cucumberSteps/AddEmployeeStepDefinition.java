@@ -5,7 +5,6 @@ import com.ohrm.automation.serenitySteps.AddEmployeeSteps;
 import com.ohrm.automation.serenitySteps.HomePageSteps;
 import com.ohrm.automation.utils.CreateRandomName;
 import cucumber.api.DataTable;
-import cucumber.api.PendingException;
 import cucumber.api.java.en.And;
 import cucumber.api.java.en.Then;
 import cucumber.api.java.en.When;
@@ -90,9 +89,10 @@ public class AddEmployeeStepDefinition {
         homePageSteps.goToAddEmployeePage();
     }
 
-    @When("^User inputs (.*) and (.*) only$")
-    public void userInputsMiddle_nameAndLast_nameOnly(String middleName, String lastName) throws Throwable {
-        addEmployeeSteps.inputNamesWithoutFirstName( middleName, lastName);
+    @When("^User input (.*) and (.*) only$")
+    public void userInputsMiddle_nameAndLast_nameOnly(String firstField, String secondField) {
+        if(firstField.equals("Middle")){addEmployeeSteps.inputNamesWithoutFirstName( firstField, secondField);}
+        else if(firstField.equals("First")){addEmployeeSteps.inputNamesWithoutLastName(firstField, secondField);}
     }
 
     @Then("^User should see employee personal details correctly$")
@@ -103,5 +103,10 @@ public class AddEmployeeStepDefinition {
     @And("^User should see login credential in the System Users page table$")
     public void userShouldSeeLoginDetailsCorrectly() throws Throwable {
         addEmployeeSteps.findUserNameByEmployeeName(firstName,middleName,lastName);
+    }
+
+    @Then("^System should display \"([^\"]*)\" fields validation \"([^\"]*)\"$")
+    public void systemShouldDisplayFieldsValidation(String field, String errorMesssage) throws Throwable {
+        addEmployeeSteps.fieldValidationInfoIsDisplayed(field, errorMesssage);
     }
 }

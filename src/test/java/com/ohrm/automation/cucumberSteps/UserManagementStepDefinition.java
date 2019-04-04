@@ -54,16 +54,14 @@ public class UserManagementStepDefinition {
         throw new PendingException();
     }
 
-    @When("^User filter user credential by <user_name>$")
+    @When("^User filter user credential by user name$")
     public void userFilterUserCredentialByUser_name() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        userManagementSteps.getUserNameFromTable(5);
     }
 
-    @Then("^User is able to <user_name> only in the system users table$")
+    @Then("^User able to get expected user name$")
     public void userIsAbleToUser_nameOnlyInTheSystemUsersTable() throws Throwable {
-        // Write code here that turns the phrase above into concrete actions
-        throw new PendingException();
+        userManagementSteps.getExpectedUserName();
     }
 
     @Then("^User is able to se <user_role> in the system users table$")

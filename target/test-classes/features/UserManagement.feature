@@ -1,4 +1,5 @@
 # Author : Okta Liem
+@Regression
 Feature: User Management
   In Order To Manage OHRM Portal
   User Admin should be able to add, view and delete users credential
@@ -12,12 +13,12 @@ Feature: User Management
     #http://www.automationtestinghub.com/cucumber-data-table/
     #https://www.programcreek.com/java-api-examples/?api=cucumber.api.DataTable
     #https://static.javadoc.io/info.cukes/cucumber-core/1.2.5/cucumber/api/DataTable.html
-    Given User has login to Portal with valid credential
+    Given User has logged in to Portal with valid credential
       | username | password |
       | admin    | admin    |
     Given User is in the Admin Portal - User Management - System Users
 
-  @regression
+  @TC_USR_MGT.001
   #Scenario Outline: Able to Add User Admin Role with Status Enable Successfully
     # https://www.baeldung.com/cucumber-scenario-outline
     #https://www.jetbrains.com/help/idea/creating-examples-table-in-scenario-outline.html
@@ -31,8 +32,12 @@ Feature: User Management
     #  | Admin     | John Lennon   | john_lennon   | Enabled  | admin    | admin            |
     #  | ESS       | Frank Sinarta | frank_sinarta | Disabled | admin    | admin            |
 
-  Scenario:  Able to Filter User Credential Successfully
-    When User filter user credential by <user_name>
-    Then User is able to <user_name> only in the system users table
+  @TC_USR_MGT.002
+  Scenario:  Filter User Credential By User Name
+    When User filter user credential by user name
+    Then User able to get expected user name
+
+  @TC_USR_MGT.003
+  Scenario:  Filter User Credential By User Role
     When User filter user credential by <user_role>
     Then User is able to se <user_role> in the system users table

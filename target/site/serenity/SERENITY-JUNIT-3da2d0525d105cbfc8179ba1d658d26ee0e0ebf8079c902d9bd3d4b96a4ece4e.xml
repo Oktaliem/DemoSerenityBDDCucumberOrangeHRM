@@ -1,1 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?><testsuite errors="0" failures="0" name="Personal Information Module" skipped="0" tests="3" time="74.68" timestamp="2019-04-93 05:14:11"><testcase name="Add Employee Without Create Login Details"/><testcase name="Add Employee With Create Login Details"/><testcase name="[Neg] Unable to Add Employee If First Name is Missing"/></testsuite>

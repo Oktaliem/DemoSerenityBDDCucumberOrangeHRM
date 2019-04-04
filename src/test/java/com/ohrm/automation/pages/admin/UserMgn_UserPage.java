@@ -9,6 +9,8 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.ui.Select;
 
+import java.util.List;
+
 public class UserMgn_UserPage extends PageObject {
     @Managed
     WebDriver driver = null;
@@ -123,7 +125,35 @@ public class UserMgn_UserPage extends PageObject {
         searchButtonSU.click();
     }
 
-    public String getFirstUserNameInTheTable(){
+    public String getFirstUserNameInTheTable() {
         return driver.findElement(By.cssSelector("table#resultTable > tbody > tr > td:nth-of-type(2) > a")).getText();
     }
+
+    public String getUserNameFromList(int i) {
+        return driver.findElement(By.cssSelector("table#resultTable > tbody > tr:nth-of-type(" + i + ") > td:nth-of-type(2) > a")).getText();
+    }
+
+    public void searchUserByUserName(String userName) {
+        //http://www.avajava.com/tutorials/lessons/how-do-i-use-the-break-and-continue-statements.html
+        //https://stackoverflow.com/questions/40819808/printing-table-to-the-console-with-selenium-java
+        //http://seleniumwebdriver.org/print-table-data-using-selenium-webdriver
+        System.out.println("Expected User Name: " + userName);
+        WebElement table = driver.findElement(By.id("resultTable"));
+        List<WebElement> rows = table.findElements(By.tagName("tr"));
+        here:
+        for (WebElement row : rows) {
+            List<WebElement> cols = row.findElements(By.tagName("a"));
+            for (WebElement col : cols) {
+                System.out.print(col.getText());
+                if (userName.trim().equals(col.getText().trim())) {
+                    break here;
+                }
+            }
+            System.out.println();
+        }
+        searchSystemUsers_userName.sendKeys(userName);
+        searchSystemUsers_eName.sendKeys(Keys.TAB);
+        clickOnSearchButtonSU();
+    }
+
 }

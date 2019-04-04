@@ -1,6 +1,6 @@
 # Author : Okta Liem
 # mvn clean verify -Dcucumber.options=" --plugin pretty --tags @TC_ADD_EMP_001"
-@addEmployee
+@Regression
 Feature: Personal Information Module
   In Order To Manage Employee Personal Information
   User Admin should be able manage employee personal information in the Portal

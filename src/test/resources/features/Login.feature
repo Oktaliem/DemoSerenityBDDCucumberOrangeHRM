@@ -1,4 +1,4 @@
-@Regression @LoginRegression
+@Regression
 Feature: Login to Orange HRM
   In Order To Access Orange HRM Portal
   User has to login to Web Portal

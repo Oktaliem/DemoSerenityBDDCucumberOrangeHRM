@@ -1,4 +1,5 @@
 # Author : Okta Liem
+@Regression
 Feature: Logout from Orange HRM
   User has to logout from Portal if no longer used
 

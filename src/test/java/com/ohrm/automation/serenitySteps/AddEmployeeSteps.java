@@ -87,7 +87,6 @@ public class AddEmployeeSteps {
     public void fieldValidationInfoIsDisplayed(String field, String errorMessage) {
         String response = addEmployeePage.getFieldValidationErrorMessage(field);
         assertThat(errorMessage, equalTo(response));
-        //form#frmAddEmp li:nth-child(3) > span
     }
 
     @Step

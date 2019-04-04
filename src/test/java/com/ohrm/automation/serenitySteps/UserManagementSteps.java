@@ -5,6 +5,7 @@ import net.thucydides.core.annotations.Managed;
 import net.thucydides.core.annotations.Step;
 import org.openqa.selenium.WebDriver;
 
+import static org.hamcrest.CoreMatchers.equalTo;
 import static org.hamcrest.MatcherAssert.assertThat;
 
 public class UserManagementSteps {
@@ -13,6 +14,7 @@ public class UserManagementSteps {
     WebDriver driver = null;
 
     UserMgn_UserPage userMgn_userPage;
+    private static String userName;
 
     /*
     @Step
@@ -38,5 +40,16 @@ public class UserManagementSteps {
         userMgn_userPage.selectAddStatus(addStatus);
         userMgn_userPage.inputAddPassword(addPass);
         userMgn_userPage.inputAddConfirmPassword(addConfirmPass);
+    }
+
+    @Step
+    public void getUserNameFromTable(int i) {
+        this.userName = userMgn_userPage.getUserNameFromList(i);
+        userMgn_userPage.searchUserByUserName(userName);
+    }
+
+    @Step
+    public void getExpectedUserName() {
+        assertThat(userName,equalTo(userMgn_userPage.getUserNameFromList(1)));
     }
 }

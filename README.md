@@ -18,6 +18,7 @@ i.e.
 - mvn clean verify -Dcucumber.options="src/test/resources/features/User_Management.feature"
 - mvn clean verify -Dcucumber.options="src/test/resources/features" -Dwebdriver.driver=chrome
 - mvn clean verify -Dwebdriver.driver=firefox
+- mvn verify -Dcucumber.options=" --plugin pretty --tags @Regression" -Dwebdriver.driver=firefox -Dcontext=firefox
 ```
 
 ## SerenityBDD HTML Report Path
@@ -46,6 +47,7 @@ Sample :
 ## Demo in Youtube
 ```
  https://youtu.be/A3jRCfnxY5s
+ https://youtu.be/dYQzXqRXczw
 ```
 
 ## Download OrangeHRM

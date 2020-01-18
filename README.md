@@ -49,14 +49,10 @@ Sample :
 
 
 ## Demo in Youtube
-```
- https://youtu.be/A3jRCfnxY5s
- https://youtu.be/dYQzXqRXczw
-```
    <a href="https://youtu.be/A3jRCfnxY5s" target="_blank"><img src="https://user-images.githubusercontent.com/26521948/72658109-63a1d400-39e7-11ea-9667-c652586b4508.png" 
-   alt="CLICK HERE" width="240" height="180" border="10" /></a>
+   alt="CLICK HERE" width="100" height="80" border="10" /></a>
       <a href="https://youtu.be/dYQzXqRXczw" target="_blank"><img src="https://user-images.githubusercontent.com/26521948/72658109-63a1d400-39e7-11ea-9667-c652586b4508.png" 
-   alt="CLICK HERE" width="240" height="180" border="10" /></a>
+   alt="CLICK HERE" width="140" height="80" border="10" /></a>
 
 
 ## Download OrangeHRM

@@ -19,7 +19,7 @@
         <compiler.version>3.5.1</compiler.version>
         <!--<enforcer.version>1.4.1</enforcer.version>-->
         <!--<enforcer.version>3.0.0-M1</enforcer.version>-->
-        <junit.version>4.12</junit.version>
+        <junit.version>4.13.1</junit.version>
         <assertj.version>3.5.1</assertj.version>
         <slf4j.version>1.7.21</slf4j.version>
         <!--<serenity.version>1.1.36</serenity.version>-->
